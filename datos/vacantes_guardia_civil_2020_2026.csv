@@ -1178,7 +1178,7 @@
 2024,Provisión por antigüedad,Activo,Covaleda,Soria,Castilla y León,SEGURIDAD CIUDADANA,15507,PUESTO DE COVALEDA,1,0,0.0,1396.08,,,,,No,Covaleda,2430010,20
 2024,Provisión por antigüedad,Activo,Villada,Palencia,Castilla y León,SEGURIDAD CIUDADANA,15507,PUESTO DE VILLADA,1,0,0.0,1396.08,,,,,No,Villada,2430010,21
 2024,Provisión por antigüedad,Activo,Lleida,Lleida,Cataluña,GUARDIA,16001,NUCLEO DE SERVICIOS LLEIDA,4,0,0.0,1396.08,,,,,No,Lleida,2430010,22
-2024,Provisión por antigüedad,Activo,Torla,Huesca,Aragón,SEGURIDAD CIUDADANA,15507,PUESTO DE TORLA,1,0,0.0,1396.08,,,,,No,Torla,2430010,23
+2024,Provisión por antigüedad,Activo,Torla-Ordesa,Huesca,Aragón,SEGURIDAD CIUDADANA,15507,PUESTO DE TORLA,1,0,0.0,1396.08,,,,,No,Torla,2430010,23
 2024,Provisión por antigüedad,Activo,Valderrobres,Teruel,Aragón,SEGURIDAD CIUDADANA,15507,PUESTO DE VALDERROBRES,1,0,0.0,1396.08,,,,,No,Valderrobres,2430010,24
 2024,Provisión por antigüedad,Activo,Buniel,Burgos,Castilla y León,SEGURIDAD CIUDADANA,15507,PUESTO DE BUNIEL,1,0,0.0,1396.08,,,,,No,Buniel,2430010,25
 2024,Provisión por antigüedad,Activo,Oña,Burgos,Castilla y León,SEGURIDAD CIUDADANA,15507,PUESTO DE OÑA,1,0,0.0,1396.08,,,,,No,Oña,2430010,26
@@ -1864,3 +1864,773 @@
 2024,Provisión por antigüedad,Activo,Benavente,Zamora,Castilla y León,SEGURIDAD CIUDADANA,15507,PUESTO P. DE BENAVENTE,1,0,5.0,1396.08,,,,,No,Benavente,2430010,706
 2024,Provisión por antigüedad,Activo,Íscar,Valladolid,Castilla y León,SEGURIDAD CIUDADANA,15507,PUESTO DE ISCAR,1,1,1.0,1396.08,,,,,No,Íscar,2430010,707
 2024,Provisión por antigüedad,Activo,Tacoronte,Santa Cruz de Tenerife,Canarias,SEGURIDAD CIUDADANA,15507,PUESTO P. DE TACORONTE,2,1,2.0,1396.08,,,,,No,Tacoronte,2430010,708
+2026,Provisión por antigüedad,Activo,Getxo,Bizkaia,País Vasco,No disponible (fuente 2026),,PUESTO DE ALGORTA,1,0,0.0,,,,,,No,Getxo,2630008,1
+2026,Provisión por antigüedad,Activo,Zarautz,Gipuzkoa,País Vasco,No disponible (fuente 2026),,PUESTO DE ZARAUZ,3,0,0.0,,,,,,No,Zarautz,2630008,2
+2026,Provisión por antigüedad,Activo,Vinaròs,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE VINAROZ,2,0,0.0,,,,,,No,Vinaròs,2630008,3
+2026,Provisión por antigüedad,Activo,Barcelona,Barcelona,Cataluña,No disponible (fuente 2026),,DESTACAMENTO PROTECCION PERSONALIDADES,1,0,0.0,,,,,,No,Barcelona,2630008,4
+2026,Provisión por antigüedad,Activo,Pamplona/Iruña,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,PUESTO P. DE PAMPLONA,10,0,0.0,,,,,,No,Pamplona/Iruña,2630008,5
+2026,Provisión por antigüedad,Activo,Nava del Rey,Valladolid,Castilla y León,No disponible (fuente 2026),,PUESTO DE NAVA DEL REY,1,0,0.0,,,,,,No,Nava del Rey,2630008,6
+2026,Provisión por antigüedad,Activo,Gernika-Lumo,Bizkaia,País Vasco,No disponible (fuente 2026),,PUESTO DE GUERNICA,7,0,0.0,,,,,,No,Gernika-Lumo,2630008,7
+2026,Provisión por antigüedad,Activo,Irun,Gipuzkoa,País Vasco,No disponible (fuente 2026),,PUESTO DE IRUN,10,0,0.0,,,,,,No,Irun,2630008,8
+2026,Provisión por antigüedad,Activo,Benicarló,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE BENICARLO,4,0,0.0,,,,,,No,Benicarló,2630008,9
+2026,Provisión por antigüedad,Activo,Sant Andreu de la Barca,Barcelona,Cataluña,No disponible (fuente 2026),,SCC. PROT. SEG. SAN ANDRES DE LA BARCA,8,0,0.0,,,,,,No,Sant Andreu de la Barca,2630008,10
+2026,Provisión por antigüedad,Activo,Irurtzun,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,PUESTO DE IRURZUN,3,0,0.0,,,,,,No,Irurtzun,2630008,11
+2026,Provisión por antigüedad,Activo,Íscar,Valladolid,Castilla y León,No disponible (fuente 2026),,PUESTO DE ISCAR,1,0,0.0,,,,,,No,Íscar,2630008,12
+2026,Provisión por antigüedad,Activo,Bilbao,Bizkaia,País Vasco,No disponible (fuente 2026),,NUCLEO DE SERVICIOS BILBAO,10,0,0.0,,,,,,No,Bilbao,2630008,13
+2026,Provisión por antigüedad,Activo,Peñíscola,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE PEÑISCOLA,1,0,0.0,,,,,,No,Peníscola/Peñíscola,2630008,14
+2026,Provisión por antigüedad,Activo,Barcelona,Barcelona,Cataluña,No disponible (fuente 2026),,SCC. PROT. SEG. BARCELONA,4,0,0.0,,,,,,No,Barcelona,2630008,15
+2026,Provisión por antigüedad,Activo,Bera,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,PUESTO DE BERA,1,0,0.0,,,,,,No,Bera,2630008,16
+2026,Provisión por antigüedad,Activo,Mojados,Valladolid,Castilla y León,No disponible (fuente 2026),,PUESTO DE MOJADOS,2,0,0.0,,,,,,No,Mojados,2630008,17
+2026,Provisión por antigüedad,Activo,Bilbao,Bizkaia,País Vasco,No disponible (fuente 2026),,PUESTO DE BILBAO,5,0,0.0,,,,,,No,Bilbao,2630008,18
+2026,Provisión por antigüedad,Activo,Alcalà de Xivert,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE ALCALA DE CHIVERT,5,0,0.0,,,,,,No,Alcalà de Xivert,2630008,19
+2026,Provisión por antigüedad,Activo,Vilanova i la Geltrú,Barcelona,Cataluña,No disponible (fuente 2026),,PUESTO P. DE VILANOVA I LA GELTRU,2,0,0.0,,,,,,No,Vilanova i la Geltrú,2630008,20
+2026,Provisión por antigüedad,Activo,Anue,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,PUESTO DE OLAGÜE,2,0,0.0,,,,,,No,Anue,2630008,21
+2026,Provisión por antigüedad,Activo,Tordesillas,Valladolid,Castilla y León,No disponible (fuente 2026),,PUESTO DE TORDESILLAS,1,0,0.0,,,,,,No,Tordesillas,2630008,22
+2026,Provisión por antigüedad,Activo,Almazora/Almassora,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE ALMAZORA,2,0,0.0,,,,,,No,Almassora,2630008,23
+2026,Provisión por antigüedad,Activo,Premià de Mar,Barcelona,Cataluña,No disponible (fuente 2026),,PUESTO P. DE PREMIA DE MAR,2,0,0.0,,,,,,No,Premià de Mar,2630008,24
+2026,Provisión por antigüedad,Activo,Aoiz/Agoitz,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,PUESTO DE AOIZ,1,0,0.0,,,,,,No,Aoiz/Agoitz,2630008,25
+2026,Provisión por antigüedad,Activo,Villalón de Campos,Valladolid,Castilla y León,No disponible (fuente 2026),,PUESTO DE VILLALON DE CAMPOS,1,0,0.0,,,,,,No,Villalón de Campos,2630008,26
+2026,Provisión por antigüedad,Activo,Benicasim/Benicàssim,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE BENICASIM,2,0,0.0,,,,,,No,Benicàssim/Benicasim,2630008,27
+2026,Provisión por antigüedad,Activo,Manresa,Barcelona,Cataluña,No disponible (fuente 2026),,PUESTO P. DE MANRESA,2,0,0.0,,,,,,No,Manresa,2630008,28
+2026,Provisión por antigüedad,Activo,Tudela,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,PUESTO DE TUDELA,1,0,0.0,,,,,,No,Tudela,2630008,29
+2026,Provisión por antigüedad,Activo,Medina de Rioseco,Valladolid,Castilla y León,No disponible (fuente 2026),,PUESTO DE MEDINA DE RIOSECO,1,0,0.0,,,,,,No,Medina de Rioseco,2630008,30
+2026,Provisión por antigüedad,Activo,Medina de Rioseco,Valladolid,Castilla y León,No disponible (fuente 2026),,PUESTO DE MEDINA DE RIOSECO,1,0,0.0,,,,,,No,Medina de Rioseco,2630008,31
+2026,Provisión por antigüedad,Activo,Oropesa del Mar/Orpesa,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE OROPESA DEL MAR,4,0,0.0,,,,,,No,Orpesa/Oropesa del Mar,2630008,32
+2026,Provisión por antigüedad,Activo,Castejón,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,PUESTO DE CASTEJON,1,0,0.0,,,,,,No,Castejón,2630008,33
+2026,Provisión por antigüedad,Activo,Cabanes,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE CABANES,2,0,0.0,,,,,,No,Cabanes,2630008,34
+2026,Provisión por antigüedad,Activo,Estella-Lizarra,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,PUESTO DE ESTELLA,1,0,0.0,,,,,,No,Estella-Lizarra,2630008,35
+2026,Provisión por antigüedad,Activo,Mayorga,Valladolid,Castilla y León,No disponible (fuente 2026),,PUESTO DE MAYORGA DE CAMPOS,2,0,0.0,,,,,,No,Mayorga,2630008,36
+2026,Provisión por antigüedad,Activo,L'Alcora,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE ALCORA,1,0,0.0,,,,,,No,"Alcora, l'",2630008,37
+2026,Provisión por antigüedad,Activo,Lerín,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,PUESTO DE LERIN,1,0,0.0,,,,,,No,Lerín,2630008,38
+2026,Provisión por antigüedad,Activo,Cabezón de Pisuerga,Valladolid,Castilla y León,No disponible (fuente 2026),,PUESTO DE CABEZON,1,0,0.0,,,,,,No,Cabezón de Pisuerga,2630008,39
+2026,Provisión por antigüedad,Activo,Onda,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE ONDA,2,0,0.0,,,,,,No,Onda,2630008,40
+2026,Provisión por antigüedad,Activo,Pamplona/Iruña,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,NUCLEO DE SERVICIOS PAMPLONA,10,0,0.0,,,,,,No,Pamplona/Iruña,2630008,41
+2026,Provisión por antigüedad,Activo,Tudela de Duero,Valladolid,Castilla y León,No disponible (fuente 2026),,PUESTO DE TUDELA DE DUERO,2,0,0.0,,,,,,No,Tudela de Duero,2630008,42
+2026,Provisión por antigüedad,Activo,Nules,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE NULES,1,0,0.0,,,,,,No,Nules,2630008,43
+2026,Provisión por antigüedad,Activo,Puente la Reina/Gares,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,PUESTO DE PUENTE LA REINA,1,0,0.0,,,,,,No,Puente la Reina/Gares,2630008,44
+2026,Provisión por antigüedad,Activo,Peñafiel,Valladolid,Castilla y León,No disponible (fuente 2026),,PUESTO DE PEÑAFIEL,1,0,0.0,,,,,,No,Peñafiel,2630008,45
+2026,Provisión por antigüedad,Activo,Borriana/Burriana,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE BURRIANA,3,0,0.0,,,,,,No,Borriana/Burriana,2630008,46
+2026,Provisión por antigüedad,Activo,Urdazubi/Urdax,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,PUESTO DE URDAX,1,0,0.0,,,,,,No,Urdazubi/Urdax,2630008,47
+2026,Provisión por antigüedad,Activo,Valladolid,Valladolid,Castilla y León,No disponible (fuente 2026),,NUCLEO DE SERVICIOS VALLADOLID,4,1,0.0,,,,,,No,Valladolid,2630008,48
+2026,Provisión por antigüedad,Activo,Segorbe,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE SEGORBE,1,1,0.0,,,,,,No,Segorbe,2630008,49
+2026,Provisión por antigüedad,Activo,Artajona,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,PUESTO DE ARTAJONA,1,0,0.0,,,,,,No,Artajona,2630008,50
+2026,Provisión por antigüedad,Activo,La Vall d'Uixó,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE VALL DE UXO,2,0,0.0,,,,,,No,"Vall d'Uixó, la",2630008,51
+2026,Provisión por antigüedad,Activo,Valtierra,Navarra,Comunidad Foral de Navarra,No disponible (fuente 2026),,PUESTO DE VALTIERRA,1,0,0.0,,,,,,Sí,Valtierra,2630008,52
+2026,Provisión por antigüedad,Activo,Castellón de la Plana/Castelló de la Plana,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,NUCLEO DE SERVICIOS CASTELLON,10,0,0.0,,,,,,No,Castelló de la Plana/Castellón de la Plana,2630008,53
+2026,Provisión por antigüedad,Activo,Sant Mateu,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE SAN MATEO,1,0,0.0,,,,,,No,Sant Mateu,2630008,54
+2026,Provisión por antigüedad,Activo,Benassal,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE BENASSAL,3,0,0.0,,,,,,No,Benassal,2630008,55
+2026,Provisión por antigüedad,Activo,Vilafamés,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE VILLAFAMES,1,0,0.0,,,,,,No,Vilafamés,2630008,56
+2026,Provisión por antigüedad,Activo,Torreblanca,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE TORREBLANCA,1,0,0.0,,,,,,No,Torreblanca,2630008,57
+2026,Provisión por antigüedad,Activo,Atzeneta del Maestrat,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE ATZENETA DEL MAESTRAT,1,0,0.0,,,,,,No,Atzeneta del Maestrat,2630008,58
+2026,Provisión por antigüedad,Activo,Montanejos,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE MONTANEJOS,1,0,0.0,,,,,,No,Montanejos,2630008,59
+2026,Provisión por antigüedad,Activo,Viver,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE VIVER,3,0,0.0,,,,,,No,Viver,2630008,60
+2026,Provisión por antigüedad,Activo,Almenara,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE ALMENARA,1,0,0.0,,,,,,No,Almenara,2630008,61
+2026,Provisión por antigüedad,Activo,Moncofa,Castellón/Castelló,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE MONCOFA,1,0,0.0,,,,,,No,Moncofa,2630008,62
+2026,Provisión por antigüedad,Activo,Melilla,Melilla,Melilla,No disponible (fuente 2026),,COMPAÑIA DE MELILLA,19,0,0.0,,,,,,No,Melilla,2630008,63
+2026,Provisión por antigüedad,Activo,Ceuta,Ceuta,Ceuta,No disponible (fuente 2026),,SCC. PROTECCION Y SEGURIDAD CEUTA,5,0,0.0,,,,,,No,Ceuta,2630008,64
+2026,Provisión por antigüedad,Activo,San Lorenzo de El Escorial,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,SECCION SEGURIDAD ACADEMIA SUBOFICIALES,1,1,0.0,,,,,,No,San Lorenzo de El Escorial,2630008,65
+2026,Provisión por antigüedad,Activo,Aranjuez,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,SECCION SEGURIDAD ACADEMIA ARANJUEZ,1,1,0.0,,,,,,No,Aranjuez,2630008,66
+2026,Provisión por antigüedad,Activo,Valdemoro,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,UNIDAD SEGURIDAD COMPLEJO DE VALDEMORO,4,0,0.0,,,,,,No,Valdemoro,2630008,67
+2026,Provisión por antigüedad,Activo,Madrid,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,2ª SCC CIA CONDUCCIONES,12,0,0.0,,,,,,No,Madrid,2630008,68
+2026,Provisión por antigüedad,Activo,Madrid,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,1ª SECCION CONDUCCIONES ESPECIALES,4,0,0.0,,,,,,No,Madrid,2630008,69
+2026,Provisión por antigüedad,Activo,Madrid,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,1º DTO CONDUCCIONES ESPECIALES,8,0,0.0,,,,,,No,Madrid,2630008,70
+2026,Provisión por antigüedad,Activo,Collado Villalba,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE COLLADO VILLALBA,6,0,0.0,,,,,,No,Collado Villalba,2630008,71
+2026,Provisión por antigüedad,Activo,Torrelodones,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE TORRELODONES,5,0,0.0,,,,,,No,Torrelodones,2630008,72
+2026,Provisión por antigüedad,Activo,Galapagar,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE GALAPAGAR,4,0,0.0,,,,,,No,Galapagar,2630008,73
+2026,Provisión por antigüedad,Activo,Hoyo de Manzanares,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE HOYO DE MANZANARES,2,0,0.0,,,,,,No,Hoyo de Manzanares,2630008,74
+2026,Provisión por antigüedad,Activo,Guadarrama,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE GUADARRAMA,3,0,0.0,,,,,,No,Guadarrama,2630008,75
+2026,Provisión por antigüedad,Activo,Cercedilla,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE CERCEDILLA,2,0,0.0,,,,,,No,Cercedilla,2630008,76
+2026,Provisión por antigüedad,Activo,El Boalo,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE CERCEDA,2,0,0.0,,,,,,No,"Boalo, El",2630008,77
+2026,Provisión por antigüedad,Activo,Los Molinos,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE LOS MOLINOS,2,0,0.0,,,,,,No,"Molinos, Los",2630008,78
+2026,Provisión por antigüedad,Activo,San Lorenzo de El Escorial,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE SAN LORENZO DE EL ESCORIAL,5,0,0.0,,,,,,No,San Lorenzo de El Escorial,2630008,79
+2026,Provisión por antigüedad,Activo,Valdemorillo,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE VALDEMORILLO,2,0,0.0,,,,,,No,Valdemorillo,2630008,80
+2026,Provisión por antigüedad,Activo,Griñón,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE GRIÑON,2,0,0.0,,,,,,No,Griñón,2630008,81
+2026,Provisión por antigüedad,Activo,Arroyomolinos,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE ARROYOMOLINOS-HUMANES,3,0,0.0,,,,,,No,Arroyomolinos,2630008,82
+2026,Provisión por antigüedad,Activo,Navalcarnero,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE NAVALCARNERO,5,0,0.0,,,,,,No,Navalcarnero,2630008,83
+2026,Provisión por antigüedad,Activo,San Martín de Valdeiglesias,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE SAN MARTIN DE VALDEIGLESIAS,3,0,0.0,,,,,,No,San Martín de Valdeiglesias,2630008,84
+2026,Provisión por antigüedad,Activo,Navas del Rey,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE NAVAS DEL REY,3,0,0.0,,,,,,No,Navas del Rey,2630008,85
+2026,Provisión por antigüedad,Activo,Aldea del Fresno,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE ALDEA DEL FRESNO,4,0,0.0,,,,,,No,Aldea del Fresno,2630008,86
+2026,Provisión por antigüedad,Activo,Villa del Prado,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE VILLA DEL PRADO,1,0,0.0,,,,,,No,Villa del Prado,2630008,87
+2026,Provisión por antigüedad,Activo,Cenicientos,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE CENICIENTOS,2,0,0.0,,,,,,No,Cenicientos,2630008,88
+2026,Provisión por antigüedad,Activo,Pinto,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE PINTO,6,0,0.0,,,,,,No,Pinto,2630008,89
+2026,Provisión por antigüedad,Activo,Valdemoro,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE VALDEMORO,8,0,0.0,,,,,,No,Valdemoro,2630008,90
+2026,Provisión por antigüedad,Activo,San Martín de la Vega,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE SAN MARTIN DE LA VEGA,3,0,0.0,,,,,,No,San Martín de la Vega,2630008,91
+2026,Provisión por antigüedad,Activo,San Martín de la Vega,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE CIEMPOZUELOS,6,0,0.0,,,,,,Sí,San Martín de la Vega,2630008,92
+2026,Provisión por antigüedad,Activo,Colmenar de Oreja,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE COLMENAR DE OREJA,2,0,0.0,,,,,,No,Colmenar de Oreja,2630008,93
+2026,Provisión por antigüedad,Activo,Chinchón,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE CHINCHON,3,0,0.0,,,,,,No,Chinchón,2630008,94
+2026,Provisión por antigüedad,Activo,Villarejo de Salvanés,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE VILLAREJO DE SALVANES,2,0,0.0,,,,,,No,Villarejo de Salvanés,2630008,95
+2026,Provisión por antigüedad,Activo,Fuentidueña de Tajo,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE FUENTIDUEÑA DE TAJO,3,0,0.0,,,,,,No,Fuentidueña de Tajo,2630008,96
+2026,Provisión por antigüedad,Activo,Fuentidueña de Tajo,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE ESTREMERA,3,0,0.0,,,,,,Sí,Fuentidueña de Tajo,2630008,97
+2026,Provisión por antigüedad,Activo,Algete,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE ALGETE,4,0,0.0,,,,,,No,Algete,2630008,98
+2026,Provisión por antigüedad,Activo,Mejorada del Campo,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE MEJORADA DEL CAMPO,8,0,0.0,,,,,,No,Mejorada del Campo,2630008,99
+2026,Provisión por antigüedad,Activo,Arganda del Rey,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE ARGANDA DEL REY,6,0,0.0,,,,,,No,Arganda del Rey,2630008,100
+2026,Provisión por antigüedad,Activo,Rivas-Vaciamadrid,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE RIVAS VACIAMADRID,8,0,0.0,,,,,,No,Rivas-Vaciamadrid,2630008,101
+2026,Provisión por antigüedad,Activo,Campo Real,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE CAMPO REAL,2,0,0.0,,,,,,No,Campo Real,2630008,102
+2026,Provisión por antigüedad,Activo,Perales de Tajuña,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE PERALES DE TAJUÑA,2,0,0.0,,,,,,No,Perales de Tajuña,2630008,103
+2026,Provisión por antigüedad,Activo,Carabaña,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE CARABAÑA,2,0,0.0,,,,,,No,Carabaña,2630008,104
+2026,Provisión por antigüedad,Activo,Meco,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE MECO,2,0,0.0,,,,,,No,Meco,2630008,105
+2026,Provisión por antigüedad,Activo,Paracuellos de Jarama,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE PARACUELLOS DE JARAMA,3,0,0.0,,,,,,No,Paracuellos de Jarama,2630008,106
+2026,Provisión por antigüedad,Activo,Villalbilla,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE VILLALBILLA,3,0,0.0,,,,,,No,Villalbilla,2630008,107
+2026,Provisión por antigüedad,Activo,Buitrago del Lozoya,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE BUITRAGO DE LOZOYA,3,0,0.0,,,,,,No,Buitrago del Lozoya,2630008,108
+2026,Provisión por antigüedad,Activo,Rascafría,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE RASCAFRIA,3,0,0.0,,,,,,No,Rascafría,2630008,109
+2026,Provisión por antigüedad,Activo,Tres Cantos,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE TRES CANTOS,8,0,0.0,,,,,,No,Tres Cantos,2630008,110
+2026,Provisión por antigüedad,Activo,Colmenar Viejo,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE COLMENAR VIEJO,6,0,0.0,,,,,,No,Colmenar Viejo,2630008,111
+2026,Provisión por antigüedad,Activo,Torrelaguna,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE TORRELAGUNA,2,0,0.0,,,,,,No,Torrelaguna,2630008,112
+2026,Provisión por antigüedad,Activo,Valdetorres de Jarama,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE VALDETORRES DE JARAMA,1,0,0.0,,,,,,No,Valdetorres de Jarama,2630008,113
+2026,Provisión por antigüedad,Activo,San Agustín del Guadalix,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE SAN AGUSTIN DEL GUADALIX,2,0,0.0,,,,,,No,San Agustín del Guadalix,2630008,114
+2026,Provisión por antigüedad,Activo,Las Rozas de Madrid,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE LAS ROZAS,8,0,0.0,,,,,,No,"Rozas de Madrid, Las",2630008,115
+2026,Provisión por antigüedad,Activo,Villanueva de la Cañada,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO DE VILLANUEVA DE LA CAÑADA,2,0,0.0,,,,,,No,Villanueva de la Cañada,2630008,116
+2026,Provisión por antigüedad,Activo,Boadilla del Monte,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE BOADILLA DEL MONTE,3,0,0.0,,,,,,No,Boadilla del Monte,2630008,117
+2026,Provisión por antigüedad,Activo,Majadahonda,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE MAJADAHONDA,8,0,0.0,,,,,,No,Majadahonda,2630008,118
+2026,Provisión por antigüedad,Activo,Villaviciosa de Odón,Madrid,Comunidad de Madrid,No disponible (fuente 2026),,PUESTO P. DE VILLAVICIOSA DE ODON,3,0,0.0,,,,,,No,Villaviciosa de Odón,2630008,119
+2026,Provisión por antigüedad,Activo,Menasalbas,Toledo,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE MENASALBAS,1,0,0.0,,,,,,No,Menasalbas,2630008,120
+2026,Provisión por antigüedad,Activo,Yepes,Toledo,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE YEPES,2,0,0.0,,,,,,No,Yepes,2630008,121
+2026,Provisión por antigüedad,Activo,Villasequilla,Toledo,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE VILLASEQUILLA,2,0,0.0,,,,,,No,Villasequilla,2630008,122
+2026,Provisión por antigüedad,Activo,La Guardia,Toledo,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE LA GUARDIA,2,0,0.0,,,,,,No,"Guardia, La",2630008,123
+2026,Provisión por antigüedad,Activo,Oropesa,Toledo,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE OROPESA,3,0,0.0,,,,,,No,Oropesa,2630008,124
+2026,Provisión por antigüedad,Activo,Talavera de la Reina,Toledo,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CALERA Y CHOZAS,2,0,0.0,,,,,,Sí,Talavera de la Reina,2630008,125
+2026,Provisión por antigüedad,Activo,Navalcán,Toledo,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE NAVALCAN,2,0,0.0,,,,,,No,Navalcán,2630008,126
+2026,Provisión por antigüedad,Activo,El Puente del Arzobispo,Toledo,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE PUENTE DEL ARZOBISPO,3,0,0.0,,,,,,No,"Puente del Arzobispo, El",2630008,127
+2026,Provisión por antigüedad,Activo,Belvís de la Jara,Toledo,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE BELVIS DE LA JARA,1,0,0.0,,,,,,No,Belvís de la Jara,2630008,128
+2026,Provisión por antigüedad,Activo,Los Navalmorales,Toledo,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE LOS NAVALMORALES,3,0,0.0,,,,,,No,"Navalmorales, Los",2630008,129
+2026,Provisión por antigüedad,Activo,Navahermosa,Toledo,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE NAVAHERMOSA,2,0,0.0,,,,,,No,Navahermosa,2630008,130
+2026,Provisión por antigüedad,Activo,San Martín de Montalbán,Toledo,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE SAN MARTIN DE MONTALBAN,2,0,0.0,,,,,,No,San Martín de Montalbán,2630008,131
+2026,Provisión por antigüedad,Activo,Malagón,Ciudad Real,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE MALAGON,1,0,0.0,,,,,,No,Malagón,2630008,132
+2026,Provisión por antigüedad,Activo,Piedrabuena,Ciudad Real,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE PIEDRABUENA,2,0,0.0,,,,,,No,Piedrabuena,2630008,133
+2026,Provisión por antigüedad,Activo,Argamasilla de Calatrava,Ciudad Real,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE ARGAMASILLA DE CALATRAVA,2,0,0.0,,,,,,No,Argamasilla de Calatrava,2630008,134
+2026,Provisión por antigüedad,Activo,Castellar de Santiago,Ciudad Real,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CASTELLAR DE SANTIAGO,1,0,0.0,,,,,,No,Castellar de Santiago,2630008,135
+2026,Provisión por antigüedad,Activo,Almadén,Ciudad Real,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE ALMADEN,1,0,0.0,,,,,,No,Almadén,2630008,136
+2026,Provisión por antigüedad,Activo,Moral de Calatrava,Ciudad Real,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE MORAL DE CALATRAVA,1,0,0.0,,,,,,No,Moral de Calatrava,2630008,137
+2026,Provisión por antigüedad,Activo,Santa Cruz de Mudela,Ciudad Real,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE SANTA CRUZ DE MUDELA,1,0,0.0,,,,,,No,Santa Cruz de Mudela,2630008,138
+2026,Provisión por antigüedad,Activo,Argamasilla de Alba,Ciudad Real,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE ARGAMASILLA DE ALBA,1,0,0.0,,,,,,No,Argamasilla de Alba,2630008,139
+2026,Provisión por antigüedad,Activo,Pedro Muñoz,Ciudad Real,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE PEDRO MUÑOZ,1,0,0.0,,,,,,No,Pedro Muñoz,2630008,140
+2026,Provisión por antigüedad,Activo,Manzanares,Ciudad Real,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO P. DE MANZANARES,1,0,0.0,,,,,,No,Manzanares,2630008,141
+2026,Provisión por antigüedad,Activo,Villarrobledo,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO P. DE VILLARROBLEDO,2,0,0.0,,,,,,No,Villarrobledo,2630008,142
+2026,Provisión por antigüedad,Activo,La Roda,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE LA RODA,2,0,0.0,,,,,,No,"Roda, La",2630008,143
+2026,Provisión por antigüedad,Activo,Tarazona de la Mancha,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE TARAZONA (ALBACETE),1,0,0.0,,,,,,No,Tarazona de la Mancha,2630008,144
+2026,Provisión por antigüedad,Activo,Madrigueras,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE MADRIGUERAS,1,0,0.0,,,,,,No,Madrigueras,2630008,145
+2026,Provisión por antigüedad,Activo,Balazote,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE BALAZOTE,1,0,0.0,,,,,,No,Balazote,2630008,146
+2026,Provisión por antigüedad,Activo,Albacete,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE AGUAS NUEVAS,1,0,0.0,,,,,,No,Albacete,2630008,147
+2026,Provisión por antigüedad,Activo,Peñas de San Pedro,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE PEÑAS DE SAN PEDRO,1,0,0.0,,,,,,No,Peñas de San Pedro,2630008,148
+2026,Provisión por antigüedad,Activo,Alcaraz,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE ALCARAZ,1,0,0.0,,,,,,No,Alcaraz,2630008,149
+2026,Provisión por antigüedad,Activo,Chinchilla de Monte-Aragón,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CHINCHILLA,1,0,0.0,,,,,,No,Chinchilla de Monte-Aragón,2630008,150
+2026,Provisión por antigüedad,Activo,Montealegre del Castillo,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE MONTEALEGRE,1,0,0.0,,,,,,No,Montealegre del Castillo,2630008,151
+2026,Provisión por antigüedad,Activo,Almansa,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO P. DE ALMANSA,2,0,0.0,,,,,,No,Almansa,2630008,152
+2026,Provisión por antigüedad,Activo,Caudete,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CAUDETE,4,0,0.0,,,,,,No,Caudete,2630008,153
+2026,Provisión por antigüedad,Activo,Casas-Ibáñez,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CASAS IBAÑEZ,5,0,0.0,,,,,,No,Casas-Ibáñez,2630008,154
+2026,Provisión por antigüedad,Activo,Tobarra,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE TOBARRA,1,0,0.0,,,,,,No,Tobarra,2630008,155
+2026,Provisión por antigüedad,Activo,Ontur,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE ONTUR,1,0,0.0,,,,,,No,Ontur,2630008,156
+2026,Provisión por antigüedad,Activo,Elche de la Sierra,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE ELCHE DE LA SIERRA,1,0,0.0,,,,,,No,Elche de la Sierra,2630008,157
+2026,Provisión por antigüedad,Activo,Albacete,Albacete,Castilla-La Mancha,No disponible (fuente 2026),,NUCLEO DE SERVICIOS ALBACETE,2,0,0.0,,,,,,No,Albacete,2630008,158
+2026,Provisión por antigüedad,Activo,Jadraque,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE JADRAQUE,0,0,0.0,,,,,,No,Jadraque,2630008,159
+2026,Provisión por antigüedad,Activo,Sigüenza,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE SIGÜENZA,0,0,0.0,,,,,,No,Sigüenza,2630008,160
+2026,Provisión por antigüedad,Activo,Humanes,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE HUMANES,0,0,0.0,,,,,,No,Humanes,2630008,161
+2026,Provisión por antigüedad,Activo,Hita,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE HITA,0,0,0.0,,,,,,No,Hita,2630008,162
+2026,Provisión por antigüedad,Activo,Cogolludo,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE COGOLLUDO,0,0,0.0,,,,,,No,Cogolludo,2630008,163
+2026,Provisión por antigüedad,Activo,Brihuega,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE BRIHUEGA,0,0,3.0,,,,,,No,Brihuega,2630008,164
+2026,Provisión por antigüedad,Activo,Torija,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE TORIJA,0,0,1.0,,,,,,No,Torija,2630008,165
+2026,Provisión por antigüedad,Activo,Pareja,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE PAREJA,0,0,0.0,,,,,,No,Pareja,2630008,166
+2026,Provisión por antigüedad,Activo,Atienza,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE ATIENZA,0,0,0.0,,,,,,No,Atienza,2630008,167
+2026,Provisión por antigüedad,Activo,Maranchón,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE MARANCHON,0,0,0.0,,,,,,No,Maranchón,2630008,168
+2026,Provisión por antigüedad,Activo,Zaorejas,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE ZAOREJAS,0,0,0.0,,,,,,No,Zaorejas,2630008,169
+2026,Provisión por antigüedad,Activo,Cifuentes,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CIFUENTES,0,0,0.0,,,,,,No,Cifuentes,2630008,170
+2026,Provisión por antigüedad,Activo,Trillo,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE TRILLO,0,0,1.0,,,,,,No,Trillo,2630008,171
+2026,Provisión por antigüedad,Activo,Torremocha del Campo,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE TORREMOCHA DEL CAMPO,0,0,0.0,,,,,,No,Torremocha del Campo,2630008,172
+2026,Provisión por antigüedad,Activo,Checa,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CHECA,0,0,0.0,,,,,,No,Checa,2630008,173
+2026,Provisión por antigüedad,Activo,Molina de Aragón,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE MOLINA DE ARAGON,0,0,0.0,,,,,,No,Molina de Aragón,2630008,174
+2026,Provisión por antigüedad,Activo,Guadalajara,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE GUADALAJARA,0,0,1.0,,,,,,No,Guadalajara,2630008,175
+2026,Provisión por antigüedad,Activo,Horche,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE HORCHE,0,0,0.0,,,,,,No,Horche,2630008,176
+2026,Provisión por antigüedad,Activo,Tendilla,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE TENDILLA,0,0,0.0,,,,,,No,Tendilla,2630008,177
+2026,Provisión por antigüedad,Activo,Azuqueca de Henares,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO P. DE AZUQUECA DE HENARES,0,0,2.0,,,,,,No,Azuqueca de Henares,2630008,178
+2026,Provisión por antigüedad,Activo,El Casar,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE EL CASAR,0,0,0.0,,,,,,No,"Casar, El",2630008,179
+2026,Provisión por antigüedad,Activo,Yunquera de Henares,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE YUNQUERA DE HENARES,0,0,0.0,,,,,,No,Yunquera de Henares,2630008,180
+2026,Provisión por antigüedad,Activo,Uceda,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE UCEDA,0,0,0.0,,,,,,No,Uceda,2630008,181
+2026,Provisión por antigüedad,Activo,Sacedón,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE SACEDON,0,0,0.0,,,,,,No,Sacedón,2630008,182
+2026,Provisión por antigüedad,Activo,Mondéjar,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE MONDEJAR,0,0,0.0,,,,,,No,Mondéjar,2630008,183
+2026,Provisión por antigüedad,Activo,Almonacid de Zorita,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE ALMONACID DE ZORITA,0,0,0.0,,,,,,No,Almonacid de Zorita,2630008,184
+2026,Provisión por antigüedad,Activo,Pastrana,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE PASTRANA,0,0,0.0,,,,,,No,Pastrana,2630008,185
+2026,Provisión por antigüedad,Activo,Guadalajara,Guadalajara,Castilla-La Mancha,No disponible (fuente 2026),,NUCLEO DE SERVICIOS GUADALAJARA,1,0,0.0,,,,,,No,Guadalajara,2630008,186
+2026,Provisión por antigüedad,Activo,Cuenca,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,NUCLEO DE SERVICIOS CUENCA,1,0,0.0,,,,,,No,Cuenca,2630008,187
+2026,Provisión por antigüedad,Activo,Mota del Cuervo,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE MOTA DEL CUERVO,0,0,0.0,,,,,,No,Mota del Cuervo,2630008,188
+2026,Provisión por antigüedad,Activo,Villamayor de Santiago,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE VILLAMAYOR DE SANTIAGO,0,0,0.0,,,,,,No,Villamayor de Santiago,2630008,189
+2026,Provisión por antigüedad,Activo,Belmonte,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE BELMONTE (CUENCA),0,0,0.0,,,,,,No,Belmonte,2630008,190
+2026,Provisión por antigüedad,Activo,Las Pedroñeras,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE LAS PEDROÑERAS,0,0,0.0,,,,,,No,"Pedroñeras, Las",2630008,191
+2026,Provisión por antigüedad,Activo,Huete,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE HUETE,0,0,0.0,,,,,,No,Huete,2630008,192
+2026,Provisión por antigüedad,Activo,Buendía,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE BUENDIA,0,0,0.0,,,,,,No,Buendía,2630008,193
+2026,Provisión por antigüedad,Activo,Villalba del Rey,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE VILLALBA DEL REY,0,0,0.0,,,,,,No,Villalba del Rey,2630008,194
+2026,Provisión por antigüedad,Activo,Campos del Paraíso,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CARRASCOSA DEL CAMPO,0,0,0.0,,,,,,No,Campos del Paraíso,2630008,195
+2026,Provisión por antigüedad,Activo,Torrejoncillo del Rey,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE TORREJONCILLO DEL REY,0,0,0.0,,,,,,No,Torrejoncillo del Rey,2630008,196
+2026,Provisión por antigüedad,Activo,Villas de la Ventosa,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE LA VENTOSA,0,0,0.0,,,,,,No,Villas de la Ventosa,2630008,197
+2026,Provisión por antigüedad,Activo,Saelices,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE SAELICES,0,0,0.0,,,,,,No,Saelices,2630008,198
+2026,Provisión por antigüedad,Activo,Tarancón,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO P. DE TARANCON,0,0,0.0,,,,,,No,Tarancón,2630008,199
+2026,Provisión por antigüedad,Activo,Montalbo,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE MONTALBO,0,0,0.0,,,,,,No,Montalbo,2630008,200
+2026,Provisión por antigüedad,Activo,Villarejo de Fuentes,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE VILLAREJO DE FUENTES,0,0,0.0,,,,,,No,Villarejo de Fuentes,2630008,201
+2026,Provisión por antigüedad,Activo,Horcajo de Santiago,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE HORCAJO DE SANTIAGO,0,0,0.0,,,,,,No,Horcajo de Santiago,2630008,202
+2026,Provisión por antigüedad,Activo,Barajas de Melo,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE BARAJAS DE MELO,0,0,0.0,,,,,,No,Barajas de Melo,2630008,203
+2026,Provisión por antigüedad,Activo,San Clemente,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE SAN CLEMENTE,0,0,1.0,,,,,,No,San Clemente,2630008,204
+2026,Provisión por antigüedad,Activo,El Provencio,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE EL PROVENCIO,0,0,0.0,,,,,,No,"Provencio, El",2630008,205
+2026,Provisión por antigüedad,Activo,Sisante,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE SISANTE,0,0,0.0,,,,,,No,Sisante,2630008,206
+2026,Provisión por antigüedad,Activo,Casas de Benítez,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CASAS DE BENITEZ,0,0,0.0,,,,,,No,Casas de Benítez,2630008,207
+2026,Provisión por antigüedad,Activo,Honrubia,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE HONRUBIA,0,0,0.0,,,,,,No,Honrubia,2630008,208
+2026,Provisión por antigüedad,Activo,Minglanilla,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE MINGLANILLA,0,0,0.0,,,,,,No,Minglanilla,2630008,209
+2026,Provisión por antigüedad,Activo,Campillo de Altobuey,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CAMPILLO DE ALTOBUEY,0,0,0.0,,,,,,No,Campillo de Altobuey,2630008,210
+2026,Provisión por antigüedad,Activo,Motilla del Palancar,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE MOTILLA DEL PALANCAR,0,0,0.0,,,,,,No,Motilla del Palancar,2630008,211
+2026,Provisión por antigüedad,Activo,Villanueva de la Jara,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE VILLANUEVA DE LA JARA,0,0,0.0,,,,,,No,Villanueva de la Jara,2630008,212
+2026,Provisión por antigüedad,Activo,Quintanar del Rey,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE QUINTANAR DEL REY,0,0,0.0,,,,,,No,Quintanar del Rey,2630008,213
+2026,Provisión por antigüedad,Activo,Iniesta,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE INIESTA,0,0,0.0,,,,,,No,Iniesta,2630008,214
+2026,Provisión por antigüedad,Activo,Valverde de Júcar,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE VALVERDE DE JUCAR,0,0,0.0,,,,,,No,Valverde de Júcar,2630008,215
+2026,Provisión por antigüedad,Activo,La Almarcha,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE LA ALMARCHA,0,0,0.0,,,,,,No,"Almarcha, La",2630008,216
+2026,Provisión por antigüedad,Activo,Almodóvar del Pinar,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE ALMODOVAR DEL PINAR,0,0,0.0,,,,,,No,Almodóvar del Pinar,2630008,217
+2026,Provisión por antigüedad,Activo,Las Valeras,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE VALERA DE ABAJO,0,0,0.0,,,,,,No,"Valeras, Las",2630008,218
+2026,Provisión por antigüedad,Activo,Priego,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE PRIEGO,0,0,1.0,,,,,,No,Priego,2630008,219
+2026,Provisión por antigüedad,Activo,Beteta,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE BETETA,0,0,0.0,,,,,,No,Beteta,2630008,220
+2026,Provisión por antigüedad,Activo,Priego,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CAÑAVERAS,0,0,0.0,,,,,,Sí,Priego,2630008,221
+2026,Provisión por antigüedad,Activo,Villar de Domingo García,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE VILLAR DE DOMINGO GARCIA,0,0,0.0,,,,,,No,Villar de Domingo García,2630008,222
+2026,Provisión por antigüedad,Activo,Cuenca,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CUENCA,0,0,0.0,,,,,,No,Cuenca,2630008,223
+2026,Provisión por antigüedad,Activo,Villalba de la Sierra,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE VILLALBA DE LA SIERRA,0,0,0.0,,,,,,No,Villalba de la Sierra,2630008,224
+2026,Provisión por antigüedad,Activo,San Lorenzo de la Parrilla,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE SAN LORENZO DE LA PARRILLA,0,0,0.0,,,,,,No,San Lorenzo de la Parrilla,2630008,225
+2026,Provisión por antigüedad,Activo,Arcas,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE ARCAS,0,0,0.0,,,,,,No,Arcas,2630008,226
+2026,Provisión por antigüedad,Activo,Villalba de la Sierra,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE TRAGACETE,0,0,0.0,,,,,,Sí,Villalba de la Sierra,2630008,227
+2026,Provisión por antigüedad,Activo,Carboneras de Guadazaón,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CARBONERAS (CUENCA),0,0,0.0,,,,,,No,Carboneras de Guadazaón,2630008,228
+2026,Provisión por antigüedad,Activo,Cañete,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CAÑETE,0,0,0.0,,,,,,No,Cañete,2630008,229
+2026,Provisión por antigüedad,Activo,Cardenete,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE CARDENETE,0,0,0.0,,,,,,No,Cardenete,2630008,230
+2026,Provisión por antigüedad,Activo,Landete,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE LANDETE,0,0,0.0,,,,,,No,Landete,2630008,231
+2026,Provisión por antigüedad,Activo,Mira,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE MIRA,0,0,0.0,,,,,,No,Mira,2630008,232
+2026,Provisión por antigüedad,Activo,Talayuelas,Cuenca,Castilla-La Mancha,No disponible (fuente 2026),,PUESTO DE TALAYUELAS,0,0,0.0,,,,,,No,Talayuelas,2630008,233
+2026,Provisión por antigüedad,Activo,Montijo,Badajoz,Extremadura,No disponible (fuente 2026),,PUESTO P. DE MONTIJO,3,0,0.0,,,,,,No,Montijo,2630008,234
+2026,Provisión por antigüedad,Activo,Badajoz,Badajoz,Extremadura,No disponible (fuente 2026),,PUESTO P. DE VALDEBOTOA-BADAJOZ,3,1,0.0,,,,,,No,Badajoz,2630008,235
+2026,Provisión por antigüedad,Activo,Villafranca de los Barros,Badajoz,Extremadura,No disponible (fuente 2026),,PUESTO DE VILLAFRANCA DE LOS BARROS,1,0,0.0,,,,,,No,Villafranca de los Barros,2630008,236
+2026,Provisión por antigüedad,Activo,Zafra,Badajoz,Extremadura,No disponible (fuente 2026),,PUESTO P. DE ZAFRA,4,0,0.0,,,,,,No,Zafra,2630008,237
+2026,Provisión por antigüedad,Activo,Badajoz,Badajoz,Extremadura,No disponible (fuente 2026),,NUCLEO DE SERVICIOS BADAJOZ,3,1,0.0,,,,,,No,Badajoz,2630008,238
+2026,Provisión por antigüedad,Activo,Monroy,Cáceres,Extremadura,No disponible (fuente 2026),,PUESTO DE MONROY,2,0,0.0,,,,,,No,Monroy,2630008,239
+2026,Provisión por antigüedad,Activo,Navalmoral de la Mata,Cáceres,Extremadura,No disponible (fuente 2026),,PUESTO P. DE NAVALMORAL DE LA MATA,1,0,0.0,,,,,,No,Navalmoral de la Mata,2630008,240
+2026,Provisión por antigüedad,Activo,Cáceres,Cáceres,Extremadura,No disponible (fuente 2026),,NUCLEO DE SERVICIOS CACERES,10,0,0.0,,,,,,No,Cáceres,2630008,241
+2026,Provisión por antigüedad,Activo,Alamedilla,Granada,Andalucía,No disponible (fuente 2026),,PUESTO DE ALAMEDILLA,3,0,0.0,,,,,,No,Alamedilla,2630008,242
+2026,Provisión por antigüedad,Activo,Iznalloz,Granada,Andalucía,No disponible (fuente 2026),,PUESTO DE IZNALLOZ,4,0,0.0,,,,,,No,Iznalloz,2630008,243
+2026,Provisión por antigüedad,Activo,Campotéjar,Granada,Andalucía,No disponible (fuente 2026),,PUESTO DE CAMPOTEJAR,3,0,0.0,,,,,,No,Campotéjar,2630008,244
+2026,Provisión por antigüedad,Activo,Guadahortuna,Granada,Andalucía,No disponible (fuente 2026),,PUESTO DE GUADAHORTUNA,3,0,0.0,,,,,,No,Guadahortuna,2630008,245
+2026,Provisión por antigüedad,Activo,Guadix,Granada,Andalucía,No disponible (fuente 2026),,PUESTO P. DE GUADIX,3,0,0.0,,,,,,No,Guadix,2630008,246
+2026,Provisión por antigüedad,Activo,La Calahorra,Granada,Andalucía,No disponible (fuente 2026),,PUESTO DE LA CALAHORRA,3,0,0.0,,,,,,No,"Calahorra, La",2630008,247
+2026,Provisión por antigüedad,Activo,Cuevas del Almanzora,Almería,Andalucía,No disponible (fuente 2026),,PUESTO DE CUEVAS,2,0,0.0,,,,,,No,Cuevas del Almanzora,2630008,248
+2026,Provisión por antigüedad,Activo,Vera,Almería,Andalucía,No disponible (fuente 2026),,PUESTO DE VERA,2,0,0.0,,,,,,No,Vera,2630008,249
+2026,Provisión por antigüedad,Activo,Garrucha,Almería,Andalucía,No disponible (fuente 2026),,PUESTO P. DE GARRUCHA,4,0,0.0,,,,,,No,Garrucha,2630008,250
+2026,Provisión por antigüedad,Activo,Oria,Almería,Andalucía,No disponible (fuente 2026),,PUESTO DE ORIA,2,0,0.0,,,,,,No,Oria,2630008,251
+2026,Provisión por antigüedad,Activo,Albox,Almería,Andalucía,No disponible (fuente 2026),,PUESTO DE ALBOX,2,0,0.0,,,,,,No,Albox,2630008,252
+2026,Provisión por antigüedad,Activo,Huércal-Overa,Almería,Andalucía,No disponible (fuente 2026),,PUESTO P. DE HUERCAL OVERA,3,0,0.0,,,,,,No,Huércal-Overa,2630008,253
+2026,Provisión por antigüedad,Activo,Baeza,Jaén,Andalucía,No disponible (fuente 2026),,SECCION SEGURIDAD ACADEMIA GUARDIAS,1,0,0.0,,,,,,No,Baeza,2630008,254
+2026,Provisión por antigüedad,Activo,Villacarrillo,Jaén,Andalucía,No disponible (fuente 2026),,PUESTO DE VILLACARRILLO,1,0,0.0,,,,,,No,Villacarrillo,2630008,255
+2026,Provisión por antigüedad,Activo,Quesada,Jaén,Andalucía,No disponible (fuente 2026),,PUESTO DE QUESADA,1,0,0.0,,,,,,No,Quesada,2630008,256
+2026,Provisión por antigüedad,Activo,Pozo Alcón,Jaén,Andalucía,No disponible (fuente 2026),,PUESTO DE POZO ALCON,1,0,0.0,,,,,,No,Pozo Alcón,2630008,257
+2026,Provisión por antigüedad,Activo,Baeza,Jaén,Andalucía,No disponible (fuente 2026),,PUESTO P. DE BAEZA,3,0,0.0,,,,,,No,Baeza,2630008,258
+2026,Provisión por antigüedad,Activo,Huelma,Jaén,Andalucía,No disponible (fuente 2026),,PUESTO DE HUELMA,1,0,0.0,,,,,,No,Huelma,2630008,259
+2026,Provisión por antigüedad,Activo,La Carolina,Jaén,Andalucía,No disponible (fuente 2026),,PUESTO DE LA CAROLINA,2,0,0.0,,,,,,No,"Carolina, La",2630008,260
+2026,Provisión por antigüedad,Activo,Guarromán,Jaén,Andalucía,No disponible (fuente 2026),,PUESTO DE GUARROMAN,1,0,0.0,,,,,,No,Guarromán,2630008,261
+2026,Provisión por antigüedad,Activo,Andújar,Jaén,Andalucía,No disponible (fuente 2026),,PUESTO DE ANDUJAR,1,0,0.0,,,,,,No,Andújar,2630008,262
+2026,Provisión por antigüedad,Activo,Lopera,Jaén,Andalucía,No disponible (fuente 2026),,PUESTO DE LOPERA,1,0,0.0,,,,,,No,Lopera,2630008,263
+2026,Provisión por antigüedad,Activo,Martos,Jaén,Andalucía,No disponible (fuente 2026),,PUESTO P. DE MARTOS,8,0,0.0,,,,,,No,Martos,2630008,264
+2026,Provisión por antigüedad,Activo,Frailes,Jaén,Andalucía,No disponible (fuente 2026),,PUESTO DE FRAILES,1,0,0.0,,,,,,No,Frailes,2630008,265
+2026,Provisión por antigüedad,Activo,Jaén,Jaén,Andalucía,No disponible (fuente 2026),,NUCLEO DE SERVICIOS JAEN,9,0,0.0,,,,,,No,Jaén,2630008,266
+2026,Provisión por antigüedad,Activo,Cortegana,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO DE CORTEGANA,2,0,0.0,,,,,,No,Cortegana,2630008,267
+2026,Provisión por antigüedad,Activo,Minas de Riotinto,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO DE MINAS DE RIOTINTO,10,0,0.0,,,,,,No,Minas de Riotinto,2630008,268
+2026,Provisión por antigüedad,Activo,La Palma del Condado,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO DE LA PALMA DEL CONDADO,2,0,0.0,,,,,,No,"Palma del Condado, La",2630008,269
+2026,Provisión por antigüedad,Activo,Almonte,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO P. DE ALMONTE,5,0,0.0,,,,,,No,Almonte,2630008,270
+2026,Provisión por antigüedad,Activo,Rociana del Condado,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO DE ROCIANA DEL CONDADO,2,0,0.0,,,,,,No,Rociana del Condado,2630008,271
+2026,Provisión por antigüedad,Activo,Almonte,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO DE TORRE DE LA HIGUERA,6,0,0.0,,,,,,No,Almonte,2630008,272
+2026,Provisión por antigüedad,Activo,Gibraleón,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO DE GIBRALEON,2,0,0.0,,,,,,No,Gibraleón,2630008,273
+2026,Provisión por antigüedad,Activo,Palos de la Frontera,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO P. DE PALOS DE LA FRONTERA,4,0,0.0,,,,,,No,Palos de la Frontera,2630008,274
+2026,Provisión por antigüedad,Activo,Moguer,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO P. DE MOGUER,6,0,0.0,,,,,,No,Moguer,2630008,275
+2026,Provisión por antigüedad,Activo,Punta Umbría,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO P. DE PUNTA UMBRIA,2,0,0.0,,,,,,No,Punta Umbría,2630008,276
+2026,Provisión por antigüedad,Activo,Isla Cristina,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO P. DE ISLA CRISTINA,4,0,0.0,,,,,,No,Isla Cristina,2630008,277
+2026,Provisión por antigüedad,Activo,Ayamonte,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO P. DE AYAMONTE,2,0,0.0,,,,,,No,Ayamonte,2630008,278
+2026,Provisión por antigüedad,Activo,Lepe,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO P. DE LEPE,4,0,0.0,,,,,,No,Lepe,2630008,279
+2026,Provisión por antigüedad,Activo,Cartaya,Huelva,Andalucía,No disponible (fuente 2026),,PUESTO P. DE CARTAYA,4,0,0.0,,,,,,No,Cartaya,2630008,280
+2026,Provisión por antigüedad,Activo,Huelva,Huelva,Andalucía,No disponible (fuente 2026),,NUCLEO DE SERVICIOS HUELVA,5,0,0.0,,,,,,No,Huelva,2630008,281
+2026,Provisión por antigüedad,Activo,Peñarroya-Pueblonuevo,Córdoba,Andalucía,No disponible (fuente 2026),,PUESTO DE PEÑARROYA-PUEBLONUEVO,3,0,0.0,,,,,,No,Peñarroya-Pueblonuevo,2630008,282
+2026,Provisión por antigüedad,Activo,Pozoblanco,Córdoba,Andalucía,No disponible (fuente 2026),,PUESTO DE POZOBLANCO,1,0,0.0,,,,,,No,Pozoblanco,2630008,283
+2026,Provisión por antigüedad,Activo,Córdoba,Córdoba,Andalucía,No disponible (fuente 2026),,NUCLEO DE SERVICIOS CORDOBA,4,0,0.0,,,,,,No,Córdoba,2630008,284
+2026,Provisión por antigüedad,Activo,Córdoba,Córdoba,Andalucía,No disponible (fuente 2026),,SCC. SEG. CP. CORDOBA-ALCOLEA,4,0,0.0,,,,,,No,Córdoba,2630008,285
+2026,Provisión por antigüedad,Activo,La Rinconada,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO P. DE LA RINCONADA,2,0,0.0,,,,,,No,"Rinconada, La",2630008,286
+2026,Provisión por antigüedad,Activo,Alcalá del Río,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO DE ALCALA DEL RIO,3,0,0.0,,,,,,No,Alcalá del Río,2630008,287
+2026,Provisión por antigüedad,Activo,Sevilla,Sevilla,Andalucía,No disponible (fuente 2026),,SCC. SEG. CP. SEVILLA I,2,0,0.0,,,,,,No,Sevilla,2630008,288
+2026,Provisión por antigüedad,Activo,Lebrija,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO P. DE LEBRIJA,1,0,0.0,,,,,,No,Lebrija,2630008,289
+2026,Provisión por antigüedad,Activo,El Cuervo de Sevilla,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO DE EL CUERVO,1,0,0.0,,,,,,No,"Cuervo de Sevilla, El",2630008,290
+2026,Provisión por antigüedad,Activo,Los Palacios y Villafranca,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO P. DE LOS PALACIOS,1,0,0.0,,,,,,No,"Palacios y Villafranca, Los",2630008,291
+2026,Provisión por antigüedad,Activo,Las Cabezas de San Juan,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO DE LAS CABEZAS DE SAN JUAN,1,0,0.0,,,,,,No,"Cabezas de San Juan, Las",2630008,292
+2026,Provisión por antigüedad,Activo,Utrera,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO P. DE UTRERA,1,0,0.0,,,,,,No,Utrera,2630008,293
+2026,Provisión por antigüedad,Activo,San Juan de Aznalfarache,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO P. DE SAN JUAN DE AZNALFARACHE,3,0,0.0,,,,,,No,San Juan de Aznalfarache,2630008,294
+2026,Provisión por antigüedad,Activo,Mairena del Aljarafe,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO P. DE MAIRENA DEL ALJARAFE,3,0,0.0,,,,,,No,Mairena del Aljarafe,2630008,295
+2026,Provisión por antigüedad,Activo,Castilleja de la Cuesta,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO DE CASTILLEJA DE LA CUESTA,1,0,0.0,,,,,,No,Castilleja de la Cuesta,2630008,296
+2026,Provisión por antigüedad,Activo,La Puebla de los Infantes,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO DE PUEBLA DE LOS INFANTES,1,0,0.0,,,,,,No,"Puebla de los Infantes, La",2630008,297
+2026,Provisión por antigüedad,Activo,Lora del Río,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO P. DE LORA DEL RIO,1,0,0.0,,,,,,No,Lora del Río,2630008,298
+2026,Provisión por antigüedad,Activo,Carmona,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO P. DE CARMONA,1,0,0.0,,,,,,No,Carmona,2630008,299
+2026,Provisión por antigüedad,Activo,Fuentes de Andalucía,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO DE FUENTES DE ANDALUCIA,1,0,0.0,,,,,,No,Fuentes de Andalucía,2630008,300
+2026,Provisión por antigüedad,Activo,Mairena del Alcor,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO P. DE LOS ALCORES,1,0,0.0,,,,,,No,Mairena del Alcor,2630008,301
+2026,Provisión por antigüedad,Activo,Badolatosa,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO DE BADOLATOSA,1,0,0.0,,,,,,No,Badolatosa,2630008,302
+2026,Provisión por antigüedad,Activo,Osuna,Sevilla,Andalucía,No disponible (fuente 2026),,PUESTO DE OSUNA,1,0,0.0,,,,,,No,Osuna,2630008,303
+2026,Provisión por antigüedad,Activo,Sevilla,Sevilla,Andalucía,No disponible (fuente 2026),,NUCLEO DE SERVICIOS SEVILLA,4,0,0.0,,,,,,No,Sevilla,2630008,304
+2026,Provisión por antigüedad,Activo,Chipiona,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO P. DE CHIPIONA,2,0,0.0,,,,,,No,Chipiona,2630008,305
+2026,Provisión por antigüedad,Activo,Prado del Rey,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO DE PRADO DEL REY,1,0,0.0,,,,,,No,Prado del Rey,2630008,306
+2026,Provisión por antigüedad,Activo,Villamartín,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO DE VILLAMARTIN,1,0,0.0,,,,,,No,Villamartín,2630008,307
+2026,Provisión por antigüedad,Activo,Puerto Serrano,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO DE PUERTO SERRANO,1,0,0.0,,,,,,No,Puerto Serrano,2630008,308
+2026,Provisión por antigüedad,Activo,Alcalá del Valle,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO DE ALCALA DEL VALLE,1,0,0.0,,,,,,No,Alcalá del Valle,2630008,309
+2026,Provisión por antigüedad,Activo,Barbate,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO P. DE BARBATE,3,0,0.0,,,,,,No,Barbate,2630008,310
+2026,Provisión por antigüedad,Activo,Castellar de la Frontera,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO DE CASTELLAR,0,0,0.0,,,,,,No,Castellar de la Frontera,2630008,311
+2026,Provisión por antigüedad,Activo,San Roque,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO P. DE GUADIARO,0,0,0.0,,,,,,No,San Roque,2630008,312
+2026,Provisión por antigüedad,Activo,San Roque,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO P. DE SAN ROQUE,0,0,0.0,,,,,,No,San Roque,2630008,313
+2026,Provisión por antigüedad,Activo,Jimena de la Frontera,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO DE JIMENA DE LA FRONTERA,0,0,0.0,,,,,,No,Jimena de la Frontera,2630008,314
+2026,Provisión por antigüedad,Activo,Tarifa,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO P. DE TARIFA,1,0,0.0,,,,,,No,Tarifa,2630008,315
+2026,Provisión por antigüedad,Activo,Tarifa,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO DE FACINAS,1,0,0.0,,,,,,No,Tarifa,2630008,316
+2026,Provisión por antigüedad,Activo,Tarifa,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO DE TORREPLATA,0,0,0.0,,,,,,No,Tarifa,2630008,317
+2026,Provisión por antigüedad,Activo,Los Barrios,Cádiz,Andalucía,No disponible (fuente 2026),,PUESTO P. DE LOS BARRIOS,2,0,0.0,,,,,,No,"Barrios, Los",2630008,318
+2026,Provisión por antigüedad,Activo,Algeciras,Cádiz,Andalucía,No disponible (fuente 2026),,NUCLEO DE SERVICIOS ALGECIRAS,1,0,0.0,,,,,,No,Algeciras,2630008,319
+2026,Provisión por antigüedad,Activo,Fuengirola,Málaga,Andalucía,No disponible (fuente 2026),,PUESTO P. DE MIJAS,6,0,0.0,,,,,,No,Fuengirola,2630008,320
+2026,Provisión por antigüedad,Activo,Ronda,Málaga,Andalucía,No disponible (fuente 2026),,PUESTO DE RONDA,3,0,0.0,,,,,,No,Ronda,2630008,321
+2026,Provisión por antigüedad,Activo,Benaoján,Málaga,Andalucía,No disponible (fuente 2026),,PUESTO DE BENAOJAN,3,0,0.0,,,,,,No,Benaoján,2630008,322
+2026,Provisión por antigüedad,Activo,Archidona,Málaga,Andalucía,No disponible (fuente 2026),,PUESTO DE ARCHIDONA,2,0,0.0,,,,,,No,Archidona,2630008,323
+2026,Provisión por antigüedad,Activo,Villanueva de Algaidas,Málaga,Andalucía,No disponible (fuente 2026),,PUESTO DE VILLANUEVA DE ALGAIDAS,1,0,0.0,,,,,,No,Villanueva de Algaidas,2630008,324
+2026,Provisión por antigüedad,Activo,Campillos,Málaga,Andalucía,No disponible (fuente 2026),,PUESTO DE CAMPILLOS,2,0,0.0,,,,,,No,Campillos,2630008,325
+2026,Provisión por antigüedad,Activo,Beniel,Murcia,Región de Murcia,No disponible (fuente 2026),,PUESTO DE BENIEL,4,0,0.0,,,,,,No,Beniel,2630008,326
+2026,Provisión por antigüedad,Activo,Jumilla,Murcia,Región de Murcia,No disponible (fuente 2026),,PUESTO P. DE JUMILLA,4,0,0.0,,,,,,No,Jumilla,2630008,327
+2026,Provisión por antigüedad,Activo,Cieza,Murcia,Región de Murcia,No disponible (fuente 2026),,PUESTO P. DE CIEZA,1,0,0.0,,,,,,No,Cieza,2630008,328
+2026,Provisión por antigüedad,Activo,Torre-Pacheco,Murcia,Región de Murcia,No disponible (fuente 2026),,PUESTO P. DE TORRE-PACHECO,4,0,0.0,,,,,,No,Torre-Pacheco,2630008,329
+2026,Provisión por antigüedad,Activo,Los Alcázares,Murcia,Región de Murcia,No disponible (fuente 2026),,PUESTO P. DE LOS ALCAZARES,4,0,0.0,,,,,,No,"Alcázares, Los",2630008,330
+2026,Provisión por antigüedad,Activo,Totana,Murcia,Región de Murcia,No disponible (fuente 2026),,PUESTO P. DE TOTANA,3,0,0.0,,,,,,No,Totana,2630008,331
+2026,Provisión por antigüedad,Activo,Mazarrón,Murcia,Región de Murcia,No disponible (fuente 2026),,PUESTO P. DE MAZARRON,4,0,0.0,,,,,,No,Mazarrón,2630008,332
+2026,Provisión por antigüedad,Activo,Puçol,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE PUZOL,1,0,0.0,,,,,,No,Puçol,2630008,333
+2026,Provisión por antigüedad,Activo,El Puig de Santa Maria,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE EL PUIG,1,0,0.0,,,,,,No,"Puig de Santa Maria, el",2630008,334
+2026,Provisión por antigüedad,Activo,Quartell,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE CUARTELL,1,0,0.0,,,,,,No,Quartell,2630008,335
+2026,Provisión por antigüedad,Activo,Montcada/Moncada,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE MONCADA,1,1,0.0,,,,,,No,Montcada/Moncada,2630008,336
+2026,Provisión por antigüedad,Activo,Sagunto/Sagunt,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE SAGUNTO/SAGUNT,1,0,0.0,,,,,,No,Sagunt/Sagunto,2630008,337
+2026,Provisión por antigüedad,Activo,Massamagrell,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE MASSAMAGRELL,1,0,0.0,,,,,,No,Massamagrell,2630008,338
+2026,Provisión por antigüedad,Activo,Castelló de Rugat,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE CASTELLO DE RUGAT,1,0,0.0,,,,,,No,Castelló de Rugat,2630008,339
+2026,Provisión por antigüedad,Activo,Castelló,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE CASTELLO,1,0,0.0,,,,,,No,Castelló,2630008,340
+2026,Provisión por antigüedad,Activo,Navarrés,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE NAVARRES,1,0,0.0,,,,,,No,Navarrés,2630008,341
+2026,Provisión por antigüedad,Activo,Tavernes Blanques,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE TAVERNES BLANQUES,1,0,0.0,,,,,,No,Tavernes Blanques,2630008,342
+2026,Provisión por antigüedad,Activo,Casinos,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE CASINOS,1,0,0.0,,,,,,No,Casinos,2630008,343
+2026,Provisión por antigüedad,Activo,Aras de los Olmos,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE ARAS DE LOS OLMOS,1,0,0.0,,,,,,No,Aras de los Olmos,2630008,344
+2026,Provisión por antigüedad,Activo,Chiva,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE CHIVA,1,0,0.0,,,,,,No,Chiva,2630008,345
+2026,Provisión por antigüedad,Activo,Cheste,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE CHESTE,1,0,0.0,,,,,,No,Cheste,2630008,346
+2026,Provisión por antigüedad,Activo,Gestalgar,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE GESTALGAR,1,0,0.0,,,,,,No,Gestalgar,2630008,347
+2026,Provisión por antigüedad,Activo,Benaguasil,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE BENAGUASIL,1,0,0.0,,,,,,No,Benaguasil,2630008,348
+2026,Provisión por antigüedad,Activo,Llíria,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE LLIRIA,1,0,0.0,,,,,,No,Llíria,2630008,349
+2026,Provisión por antigüedad,Activo,La Pobla de Vallbona,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE POBLA DE VALLBONA,1,0,0.0,,,,,,No,"Pobla de Vallbona, la",2630008,350
+2026,Provisión por antigüedad,Activo,Vilamarxant,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE VILAMARXANT,1,0,0.0,,,,,,No,Vilamarxant,2630008,351
+2026,Provisión por antigüedad,Activo,Ademuz,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE ADEMUZ,1,0,0.0,,,,,,No,Ademuz,2630008,352
+2026,Provisión por antigüedad,Activo,Bétera,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE BETERA,1,0,0.0,,,,,,No,Bétera,2630008,353
+2026,Provisión por antigüedad,Activo,Utiel,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE UTIEL,1,0,0.0,,,,,,No,Utiel,2630008,354
+2026,Provisión por antigüedad,Activo,Sinarcas,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE SINARCAS,1,0,0.0,,,,,,No,Sinarcas,2630008,355
+2026,Provisión por antigüedad,Activo,Camporrobles,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE CAMPORROBLES,1,0,0.0,,,,,,No,Camporrobles,2630008,356
+2026,Provisión por antigüedad,Activo,Buñol,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE BUÑOL,1,0,0.0,,,,,,No,Buñol,2630008,357
+2026,Provisión por antigüedad,Activo,Requena,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE REQUENA,1,0,0.0,,,,,,No,Requena,2630008,358
+2026,Provisión por antigüedad,Activo,Siete Aguas,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE SIETE AGUAS,1,0,0.0,,,,,,No,Siete Aguas,2630008,359
+2026,Provisión por antigüedad,Activo,Ayora,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE AYORA,1,0,0.0,,,,,,No,Ayora,2630008,360
+2026,Provisión por antigüedad,Activo,Moixent/Mogente,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE MOIXENT,1,0,0.0,,,,,,No,Moixent/Mogente,2630008,361
+2026,Provisión por antigüedad,Activo,Càrcer,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE CARCER,1,0,0.0,,,,,,No,Càrcer,2630008,362
+2026,Provisión por antigüedad,Activo,Bocairent,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE BOCAIRENT,1,0,0.0,,,,,,No,Bocairent,2630008,363
+2026,Provisión por antigüedad,Activo,Xàtiva,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE XATIVA,1,0,0.0,,,,,,No,Xàtiva,2630008,364
+2026,Provisión por antigüedad,Activo,L'Olleria,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE L'OLLERIA,1,0,0.0,,,,,,No,"Olleria, l'",2630008,365
+2026,Provisión por antigüedad,Activo,Albaida,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE ALBAIDA,1,0,0.0,,,,,,No,Albaida,2630008,366
+2026,Provisión por antigüedad,Activo,Benigànim,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE BENIGANIM,1,0,0.0,,,,,,No,Benigànim,2630008,367
+2026,Provisión por antigüedad,Activo,Canals,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE CANALS,1,0,0.0,,,,,,No,Canals,2630008,368
+2026,Provisión por antigüedad,Activo,Oliva,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE OLIVA-GANDIA,1,0,0.0,,,,,,No,Oliva,2630008,369
+2026,Provisión por antigüedad,Activo,Xeresa,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE XERESA,1,0,0.0,,,,,,No,Xeresa,2630008,370
+2026,Provisión por antigüedad,Activo,Vilallonga/Villalonga,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE VILLALONGA,1,0,0.0,,,,,,No,Vilallonga/Villalonga,2630008,371
+2026,Provisión por antigüedad,Activo,Tavernes de la Valldigna,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE TAVERNES DE LA VALLDIGNA,1,0,0.0,,,,,,No,Tavernes de la Valldigna,2630008,372
+2026,Provisión por antigüedad,Activo,Cullera,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE CULLERA,1,0,0.0,,,,,,No,Cullera,2630008,373
+2026,Provisión por antigüedad,Activo,Alberic,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE ALBERIC,1,0,0.0,,,,,,No,Alberic,2630008,374
+2026,Provisión por antigüedad,Activo,Llombai,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE LLOMBAI,1,0,0.0,,,,,,No,Llombai,2630008,375
+2026,Provisión por antigüedad,Activo,Carcaixent,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE CARCAIXENT,1,0,0.0,,,,,,No,Carcaixent,2630008,376
+2026,Provisión por antigüedad,Activo,Almussafes,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE ALMUSSAFES,1,0,0.0,,,,,,No,Almussafes,2630008,377
+2026,Provisión por antigüedad,Activo,Sueca,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE SUECA,1,0,0.0,,,,,,No,Sueca,2630008,378
+2026,Provisión por antigüedad,Activo,Carlet,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE CARLET,1,0,0.0,,,,,,No,Carlet,2630008,379
+2026,Provisión por antigüedad,Activo,Alfafar,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE ALFAFAR-CATARROJA,1,0,0.0,,,,,,No,Alfafar,2630008,380
+2026,Provisión por antigüedad,Activo,Aldaia,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE ALDAIA,1,0,0.0,,,,,,No,Aldaia,2630008,381
+2026,Provisión por antigüedad,Activo,Paiporta,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE PAIPORTA,1,1,0.0,,,,,,No,Paiporta,2630008,382
+2026,Provisión por antigüedad,Activo,València,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE EL PERELLONET,1,0,0.0,,,,,,No,València,2630008,383
+2026,Provisión por antigüedad,Activo,Picassent,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE PICASSENT,1,0,0.0,,,,,,No,Picassent,2630008,384
+2026,Provisión por antigüedad,Activo,Silla,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE SILLA,1,0,0.0,,,,,,No,Silla,2630008,385
+2026,Provisión por antigüedad,Activo,Picassent,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,SCC. SEG. CP. PICASSENT,1,0,0.0,,,,,,No,Picassent,2630008,386
+2026,Provisión por antigüedad,Activo,València,Valencia/València,Comunitat Valenciana,No disponible (fuente 2026),,NUCLEO DE SERVICIOS VALENCIA,1,0,0.0,,,,,,No,València,2630008,387
+2026,Provisión por antigüedad,Activo,Villena,Alicante/Alacant,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE VILLENA,2,0,0.0,,,,,,No,Villena,2630008,388
+2026,Provisión por antigüedad,Activo,Ibi,Alicante/Alacant,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE IBI,2,0,0.0,,,,,,No,Ibi,2630008,389
+2026,Provisión por antigüedad,Activo,Novelda,Alicante/Alacant,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE NOVELDA,2,0,0.0,,,,,,No,Novelda,2630008,390
+2026,Provisión por antigüedad,Activo,Callosa de Segura,Alicante/Alacant,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE CALLOSA DE SEGURA,2,0,0.0,,,,,,No,Callosa de Segura,2630008,391
+2026,Provisión por antigüedad,Activo,Pilar de la Horadada,Alicante/Alacant,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE PILAR DE LA HORADADA,3,0,0.0,,,,,,No,Pilar de la Horadada,2630008,392
+2026,Provisión por antigüedad,Activo,Torrevieja,Alicante/Alacant,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE TORREVIEJA,16,0,0.0,,,,,,No,Torrevieja,2630008,393
+2026,Provisión por antigüedad,Activo,Jacarilla,Alicante/Alacant,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO DE JACARILLA,1,0,0.0,,,,,,No,Jacarilla,2630008,394
+2026,Provisión por antigüedad,Activo,Santa Pola,Alicante/Alacant,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE SANTA POLA,2,0,0.0,,,,,,No,Santa Pola,2630008,395
+2026,Provisión por antigüedad,Activo,Sant Joan d'Alacant,Alicante/Alacant,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE SAN JUAN,2,0,0.0,,,,,,No,Sant Joan d'Alacant,2630008,396
+2026,Provisión por antigüedad,Activo,El Campello,Alicante/Alacant,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE CAMPELLO,2,0,0.0,,,,,,No,"Campello, el",2630008,397
+2026,Provisión por antigüedad,Activo,Jávea/Xàbia,Alicante/Alacant,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE JAVEA,2,0,0.0,,,,,,No,Xàbia/Jávea,2630008,398
+2026,Provisión por antigüedad,Activo,Altea,Alicante/Alacant,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE ALTEA,2,1,0.0,,,,,,No,Altea,2630008,399
+2026,Provisión por antigüedad,Activo,Calp,Alicante/Alacant,Comunitat Valenciana,No disponible (fuente 2026),,PUESTO P. DE CALPE,2,0,0.0,,,,,,No,Calp,2630008,400
+2026,Provisión por antigüedad,Activo,Ripoll,Girona,Cataluña,No disponible (fuente 2026),,PUESTO DE RIPOLL,1,0,0.0,,,,,,No,Ripoll,2630008,401
+2026,Provisión por antigüedad,Activo,Figueres,Girona,Cataluña,No disponible (fuente 2026),,PUESTO DE FIGUERES,1,0,0.0,,,,,,No,Figueres,2630008,402
+2026,Provisión por antigüedad,Activo,Roses,Girona,Cataluña,No disponible (fuente 2026),,PUESTO DE ROSES,0,0,2.0,,,,,,No,Roses,2630008,403
+2026,Provisión por antigüedad,Activo,Lloret de Mar,Girona,Cataluña,No disponible (fuente 2026),,PUESTO DE LLORET DE MAR,0,0,1.0,,,,,,No,Lloret de Mar,2630008,404
+2026,Provisión por antigüedad,Activo,Palamós,Girona,Cataluña,No disponible (fuente 2026),,PUESTO DE PALAMOS,0,0,3.0,,,,,,No,Palamós,2630008,405
+2026,Provisión por antigüedad,Activo,Torroella de Montgrí,Girona,Cataluña,No disponible (fuente 2026),,PUESTO DE L'ESTARTIT,0,0,0.0,,,,,,No,Torroella de Montgrí,2630008,406
+2026,Provisión por antigüedad,Activo,Salou,Tarragona,Cataluña,No disponible (fuente 2026),,PUESTO DE SALOU,0,0,0.0,,,,,,No,Salou,2630008,407
+2026,Provisión por antigüedad,Activo,Cambrils,Tarragona,Cataluña,No disponible (fuente 2026),,PUESTO DE CAMBRILS,0,0,0.0,,,,,,No,Cambrils,2630008,408
+2026,Provisión por antigüedad,Activo,Falset,Tarragona,Cataluña,No disponible (fuente 2026),,PUESTO DE FALSET,0,0,0.0,,,,,,No,Falset,2630008,409
+2026,Provisión por antigüedad,Activo,El Vendrell,Tarragona,Cataluña,No disponible (fuente 2026),,PUESTO DE EL VENDRELL,0,0,0.0,,,,,,No,"Vendrell, El",2630008,410
+2026,Provisión por antigüedad,Activo,Valls,Tarragona,Cataluña,No disponible (fuente 2026),,PUESTO DE VALLS,0,0,1.0,,,,,,No,Valls,2630008,411
+2026,Provisión por antigüedad,Activo,Tortosa,Tarragona,Cataluña,No disponible (fuente 2026),,PUESTO DE TORTOSA,0,0,1.0,,,,,,No,Tortosa,2630008,412
+2026,Provisión por antigüedad,Activo,La Ràpita,Tarragona,Cataluña,No disponible (fuente 2026),,PUESTO DE AMPOSTA,0,0,0.0,,,,,,Sí,"Ràpita, La",2630008,413
+2026,Provisión por antigüedad,Activo,La Ràpita,Tarragona,Cataluña,No disponible (fuente 2026),,PUESTO DE LA RAPITA,0,0,0.0,,,,,,No,"Ràpita, La",2630008,414
+2026,Provisión por antigüedad,Activo,Móra d'Ebre,Tarragona,Cataluña,No disponible (fuente 2026),,PUESTO DE MORA D'EBRE,0,0,0.0,,,,,,No,Móra d'Ebre,2630008,415
+2026,Provisión por antigüedad,Activo,L'Ametlla de Mar,Tarragona,Cataluña,No disponible (fuente 2026),,PUESTO DE L'AMETLLA DE MAR,0,0,0.0,,,,,,No,"Ametlla de Mar, L'",2630008,416
+2026,Provisión por antigüedad,Activo,Tarragona,Tarragona,Cataluña,No disponible (fuente 2026),,NUCLEO DE SERVICIOS TARRAGONA,1,0,0.0,,,,,,No,Tarragona,2630008,417
+2026,Provisión por antigüedad,Activo,Balaguer,Lleida,Cataluña,No disponible (fuente 2026),,PUESTO DE BALAGUER,0,0,3.0,,,,,,No,Balaguer,2630008,418
+2026,Provisión por antigüedad,Activo,Alcarràs,Lleida,Cataluña,No disponible (fuente 2026),,PUESTO DE ALCARRAS,0,0,0.0,,,,,,No,Alcarràs,2630008,419
+2026,Provisión por antigüedad,Activo,Tàrrega,Lleida,Cataluña,No disponible (fuente 2026),,PUESTO DE TARREGA,0,0,1.0,,,,,,No,Tàrrega,2630008,420
+2026,Provisión por antigüedad,Activo,Tremp,Lleida,Cataluña,No disponible (fuente 2026),,PUESTO DE TREMP,0,0,0.0,,,,,,No,Tremp,2630008,421
+2026,Provisión por antigüedad,Activo,Solsona,Lleida,Cataluña,No disponible (fuente 2026),,PUESTO DE SOLSONA,0,0,1.0,,,,,,No,Solsona,2630008,422
+2026,Provisión por antigüedad,Activo,Lleida,Lleida,Cataluña,No disponible (fuente 2026),,NUCLEO DE SERVICIOS LLEIDA,1,0,0.0,,,,,,No,Lleida,2630008,423
+2026,Provisión por antigüedad,Activo,Alhama de Aragón,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE ALHAMA (ZARAGOZA),0,0,0.0,,,,,,No,Alhama de Aragón,2630008,424
+2026,Provisión por antigüedad,Activo,Ateca,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE ATECA,0,0,0.0,,,,,,No,Ateca,2630008,425
+2026,Provisión por antigüedad,Activo,Aniñón,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE ANIÑON,0,0,0.0,,,,,,No,Aniñón,2630008,426
+2026,Provisión por antigüedad,Activo,Munébrega,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE MUNEBREGA,0,0,0.0,,,,,,No,Munébrega,2630008,427
+2026,Provisión por antigüedad,Activo,Maluenda,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE MALUENDA,0,0,0.0,,,,,,No,Maluenda,2630008,428
+2026,Provisión por antigüedad,Activo,Calatayud,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE CALATAYUD,0,0,0.0,,,,,,No,Calatayud,2630008,429
+2026,Provisión por antigüedad,Activo,Sabiñán,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE SABIÑAN,0,0,1.0,,,,,,No,Sabiñán,2630008,430
+2026,Provisión por antigüedad,Activo,Daroca,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE DAROCA,0,0,0.0,,,,,,No,Daroca,2630008,431
+2026,Provisión por antigüedad,Activo,Cariñena,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE CARIÑENA,0,0,0.0,,,,,,No,Cariñena,2630008,432
+2026,Provisión por antigüedad,Activo,Villanueva de Huerva,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE VILLANUEVA DE HUERVA,0,0,0.0,,,,,,No,Villanueva de Huerva,2630008,433
+2026,Provisión por antigüedad,Activo,Caspe,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE CASPE,3,0,0.0,,,,,,No,Caspe,2630008,434
+2026,Provisión por antigüedad,Activo,Maella,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE MAELLA,0,0,4.0,,,,,,No,Maella,2630008,435
+2026,Provisión por antigüedad,Activo,Mequinenza,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE MEQUINENZA,0,0,0.0,,,,,,No,Mequinenza,2630008,436
+2026,Provisión por antigüedad,Activo,Escatrón,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE ESCATRON,1,0,0.0,,,,,,No,Escatrón,2630008,437
+2026,Provisión por antigüedad,Activo,Leciñena,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE LECIÑENA,0,0,0.0,,,,,,No,Leciñena,2630008,438
+2026,Provisión por antigüedad,Activo,Pina de Ebro,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE PINA DE EBRO,0,0,0.0,,,,,,No,Pina de Ebro,2630008,439
+2026,Provisión por antigüedad,Activo,Fuentes de Ebro,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE FUENTES DE EBRO,0,0,1.0,,,,,,No,Fuentes de Ebro,2630008,440
+2026,Provisión por antigüedad,Activo,Belchite,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE BELCHITE,0,0,0.0,,,,,,No,Belchite,2630008,441
+2026,Provisión por antigüedad,Activo,Morata de Jalón,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE MORATA,0,0,1.0,,,,,,No,Morata de Jalón,2630008,442
+2026,Provisión por antigüedad,Activo,Brea de Aragón,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE BREA,0,0,0.0,,,,,,No,Brea de Aragón,2630008,443
+2026,Provisión por antigüedad,Activo,Borja,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE BORJA,1,0,0.0,,,,,,No,Borja,2630008,444
+2026,Provisión por antigüedad,Activo,Vera de Moncayo,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE VERA DE MONCAYO,0,0,1.0,,,,,,No,Vera de Moncayo,2630008,445
+2026,Provisión por antigüedad,Activo,Tarazona,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE TARAZONA (ZARAGOZA),2,0,0.0,,,,,,No,Tarazona,2630008,446
+2026,Provisión por antigüedad,Activo,Calatorao,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE CALATORAO,0,0,0.0,,,,,,No,Calatorao,2630008,447
+2026,Provisión por antigüedad,Activo,Mallén,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE MALLEN,0,0,2.0,,,,,,No,Mallén,2630008,448
+2026,Provisión por antigüedad,Activo,Épila,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE EPILA,0,0,0.0,,,,,,No,Épila,2630008,449
+2026,Provisión por antigüedad,Activo,La Almunia de Doña Godina,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE LA ALMUNIA,0,0,0.0,,,,,,No,"Almunia de Doña Godina, La",2630008,450
+2026,Provisión por antigüedad,Activo,Sos del Rey Católico,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE SOS DEL REY CATOLICO,0,0,1.0,,,,,,No,Sos del Rey Católico,2630008,451
+2026,Provisión por antigüedad,Activo,Salvatierra de Esca,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE SALVATIERRA (ZARAGOZA),0,0,1.0,,,,,,No,Salvatierra de Esca,2630008,452
+2026,Provisión por antigüedad,Activo,Luesia,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE LUESIA,0,0,0.0,,,,,,No,Luesia,2630008,453
+2026,Provisión por antigüedad,Activo,Tauste,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE TAUSTE,0,0,1.0,,,,,,No,Tauste,2630008,454
+2026,Provisión por antigüedad,Activo,Sádaba,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE SADABA,0,0,0.0,,,,,,No,Sádaba,2630008,455
+2026,Provisión por antigüedad,Activo,Ejea de los Caballeros,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE EJEA DE LOS CABALLEROS,0,0,1.0,,,,,,No,Ejea de los Caballeros,2630008,456
+2026,Provisión por antigüedad,Activo,Alagón,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE ALAGON,0,0,0.0,,,,,,No,Alagón,2630008,457
+2026,Provisión por antigüedad,Activo,Luna,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE LUNA,0,0,0.0,,,,,,No,Luna,2630008,458
+2026,Provisión por antigüedad,Activo,Pedrola,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE PEDROLA,0,0,0.0,,,,,,No,Pedrola,2630008,459
+2026,Provisión por antigüedad,Activo,Gallur,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE GALLUR,0,0,0.0,,,,,,No,Gallur,2630008,460
+2026,Provisión por antigüedad,Activo,El Burgo de Ebro,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE EL BURGO DE EBRO,0,0,0.0,,,,,,No,"Burgo de Ebro, El",2630008,461
+2026,Provisión por antigüedad,Activo,Zuera,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE ZUERA,0,0,0.0,,,,,,No,Zuera,2630008,462
+2026,Provisión por antigüedad,Activo,Utebo,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE UTEBO,0,0,0.0,,,,,,No,Utebo,2630008,463
+2026,Provisión por antigüedad,Activo,Zaragoza,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE CASABLANCA,0,0,0.0,,,,,,No,Zaragoza,2630008,464
+2026,Provisión por antigüedad,Activo,Alfajarín,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE ALFAJARIN,0,0,1.0,,,,,,No,Alfajarín,2630008,465
+2026,Provisión por antigüedad,Activo,Muel,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE MUEL,0,0,0.0,,,,,,No,Muel,2630008,466
+2026,Provisión por antigüedad,Activo,Zaragoza,Zaragoza,Aragón,No disponible (fuente 2026),,PUESTO DE VILLANUEVA DE GALLEGO,0,0,0.0,,,,,,No,Zaragoza,2630008,467
+2026,Provisión por antigüedad,Activo,Zaragoza,Zaragoza,Aragón,No disponible (fuente 2026),,NUCLEO DE SERVICIOS ZARAGOZA,2,0,0.0,,,,,,No,Zaragoza,2630008,468
+2026,Provisión por antigüedad,Activo,Huesca,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE HUESCA,0,0,0.0,,,,,,No,Huesca,2630008,469
+2026,Provisión por antigüedad,Activo,Ayerbe,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE AYERBE,0,0,0.0,,,,,,No,Ayerbe,2630008,470
+2026,Provisión por antigüedad,Activo,Angüés,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE ANGUES,0,0,0.0,,,,,,No,Angüés,2630008,471
+2026,Provisión por antigüedad,Activo,Novales,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE NOVALES,0,0,0.0,,,,,,No,Novales,2630008,472
+2026,Provisión por antigüedad,Activo,Tardienta,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE TARDIENTA,0,0,2.0,,,,,,No,Tardienta,2630008,473
+2026,Provisión por antigüedad,Activo,Almudévar,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE ALMUDEVAR,0,0,1.0,,,,,,No,Almudévar,2630008,474
+2026,Provisión por antigüedad,Activo,Gurrea de Gállego,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE GURREA DE GALLEGO,0,0,0.0,,,,,,No,Gurrea de Gállego,2630008,475
+2026,Provisión por antigüedad,Activo,Grañén,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE GRAÑEN,0,0,0.0,,,,,,No,Grañén,2630008,476
+2026,Provisión por antigüedad,Activo,Sariñena,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE SARIÑENA,0,0,3.0,,,,,,No,Sariñena,2630008,477
+2026,Provisión por antigüedad,Activo,Lanaja,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE LANAJA,0,0,1.0,,,,,,No,Lanaja,2630008,478
+2026,Provisión por antigüedad,Activo,Estadilla,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE ESTADILLA,0,0,0.0,,,,,,No,Estadilla,2630008,479
+2026,Provisión por antigüedad,Activo,Berbegal,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE BERBEGAL,0,0,2.0,,,,,,No,Berbegal,2630008,480
+2026,Provisión por antigüedad,Activo,Peralta de Alcofea,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE PERALTA ALCOFEA,0,0,0.0,,,,,,No,Peralta de Alcofea,2630008,481
+2026,Provisión por antigüedad,Activo,Binéfar,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE BINEFAR,0,0,3.0,,,,,,No,Binéfar,2630008,482
+2026,Provisión por antigüedad,Activo,Monzón,Huesca,Aragón,No disponible (fuente 2026),,PUESTO P. DE MONZON,10,0,0.0,,,,,,No,Monzón,2630008,483
+2026,Provisión por antigüedad,Activo,Tamarite de Litera,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE TAMARITE DE LITERA,0,0,0.0,,,,,,No,Tamarite de Litera,2630008,484
+2026,Provisión por antigüedad,Activo,Barbastro,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE BARBASTRO,0,0,4.0,,,,,,No,Barbastro,2630008,485
+2026,Provisión por antigüedad,Activo,Graus,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE GRAUS,0,0,0.0,,,,,,No,Graus,2630008,486
+2026,Provisión por antigüedad,Activo,Benabarre,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE BENABARRE,0,0,0.0,,,,,,No,Benabarre,2630008,487
+2026,Provisión por antigüedad,Activo,Torla-Ordesa,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE TORLA,0,0,0.0,,,,,,No,Torla-Ordesa,2630008,488
+2026,Provisión por antigüedad,Activo,Fiscal,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE FISCAL,0,0,1.0,,,,,,No,Fiscal,2630008,489
+2026,Provisión por antigüedad,Activo,Boltaña,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE BOLTAÑA,0,0,1.0,,,,,,No,Boltaña,2630008,490
+2026,Provisión por antigüedad,Activo,Aínsa-Sobrarbe,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE AINSA,0,0,1.0,,,,,,No,Aínsa-Sobrarbe,2630008,491
+2026,Provisión por antigüedad,Activo,Seira,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE SEIRA,0,0,3.0,,,,,,No,Seira,2630008,492
+2026,Provisión por antigüedad,Activo,Bielsa,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE BIELSA,0,0,3.0,,,,,,No,Bielsa,2630008,493
+2026,Provisión por antigüedad,Activo,Benasque,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE BENASQUE,0,0,0.0,,,,,,No,Benasque,2630008,494
+2026,Provisión por antigüedad,Activo,Canfranc,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE CANFRANC ESTACION,0,0,0.0,,,,,,No,Canfranc,2630008,495
+2026,Provisión por antigüedad,Activo,Jaca,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE JACA,0,0,0.0,,,,,,No,Jaca,2630008,496
+2026,Provisión por antigüedad,Activo,Valle de Hecho,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE HECHO,0,0,0.0,,,,,,No,Valle de Hecho,2630008,497
+2026,Provisión por antigüedad,Activo,Ansó,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE ANSO,0,0,0.0,,,,,,No,Ansó,2630008,498
+2026,Provisión por antigüedad,Activo,Biescas,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE BIESCAS,0,0,0.0,,,,,,No,Biescas,2630008,499
+2026,Provisión por antigüedad,Activo,Sabiñánigo,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE SABIÑANIGO,0,0,1.0,,,,,,No,Sabiñánigo,2630008,500
+2026,Provisión por antigüedad,Activo,Sallent de Gállego,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE SALLENT DE GALLEGO,0,0,0.0,,,,,,No,Sallent de Gállego,2630008,501
+2026,Provisión por antigüedad,Activo,Panticosa,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE PANTICOSA,0,0,0.0,,,,,,No,Panticosa,2630008,502
+2026,Provisión por antigüedad,Activo,Alcolea de Cinca,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE ALCOLEA DE CINCA,0,0,2.0,,,,,,No,Alcolea de Cinca,2630008,503
+2026,Provisión por antigüedad,Activo,Fraga,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE FRAGA,0,0,4.0,,,,,,No,Fraga,2630008,504
+2026,Provisión por antigüedad,Activo,Candasnos,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE CANDASNOS,0,0,4.0,,,,,,No,Candasnos,2630008,505
+2026,Provisión por antigüedad,Activo,Zaidín,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE ZAIDIN,0,0,2.0,,,,,,No,Zaidín,2630008,506
+2026,Provisión por antigüedad,Activo,Belver de Cinca,Huesca,Aragón,No disponible (fuente 2026),,PUESTO DE BELVER DE CINCA,0,0,1.0,,,,,,No,Belver de Cinca,2630008,507
+2026,Provisión por antigüedad,Activo,Huesca,Huesca,Aragón,No disponible (fuente 2026),,NUCLEO DE SERVICIOS HUESCA,0,0,2.0,,,,,,No,Huesca,2630008,508
+2026,Provisión por antigüedad,Activo,Teruel,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE TERUEL,0,0,0.0,,,,,,No,Teruel,2630008,509
+2026,Provisión por antigüedad,Activo,Cedrillas,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE CEDRILLAS,3,0,0.0,,,,,,No,Cedrillas,2630008,510
+2026,Provisión por antigüedad,Activo,Albarracín,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE ALBARRACIN,0,0,1.0,,,,,,No,Albarracín,2630008,511
+2026,Provisión por antigüedad,Activo,Orihuela del Tremedal,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE ORIHUELA DEL TREMEDAL,0,0,2.0,,,,,,No,Orihuela del Tremedal,2630008,512
+2026,Provisión por antigüedad,Activo,Santa Eulalia,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE SANTA EULALIA DEL CAMPO,0,0,0.0,,,,,,No,Santa Eulalia,2630008,513
+2026,Provisión por antigüedad,Activo,Cella,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE CELLA,0,0,1.0,,,,,,No,Cella,2630008,514
+2026,Provisión por antigüedad,Activo,Alfambra,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE ALFAMBRA,0,0,0.0,,,,,,No,Alfambra,2630008,515
+2026,Provisión por antigüedad,Activo,Andorra,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE ANDORRA,0,0,0.0,,,,,,No,Andorra,2630008,516
+2026,Provisión por antigüedad,Activo,Híjar,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE HIJAR,0,0,0.0,,,,,,No,Híjar,2630008,517
+2026,Provisión por antigüedad,Activo,Albalate del Arzobispo,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE ALBALATE DEL ARZOBISPO,0,0,0.0,,,,,,No,Albalate del Arzobispo,2630008,518
+2026,Provisión por antigüedad,Activo,Valderrobres,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE VALDERROBRES,0,0,0.0,,,,,,No,Valderrobres,2630008,519
+2026,Provisión por antigüedad,Activo,Valdealgorfa,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE VALDEALGORFA,0,0,1.0,,,,,,No,Valdealgorfa,2630008,520
+2026,Provisión por antigüedad,Activo,Monroyo,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE MONROYO,0,0,0.0,,,,,,No,Monroyo,2630008,521
+2026,Provisión por antigüedad,Activo,Calanda,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE CALANDA,0,0,1.0,,,,,,No,Calanda,2630008,522
+2026,Provisión por antigüedad,Activo,Mas de las Matas,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE MAS DE LAS MATAS,0,0,0.0,,,,,,No,Mas de las Matas,2630008,523
+2026,Provisión por antigüedad,Activo,Alcorisa,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE ALCORISA,0,0,0.0,,,,,,No,Alcorisa,2630008,524
+2026,Provisión por antigüedad,Activo,Calaceite,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE CALACEITE,0,0,0.0,,,,,,No,Calaceite,2630008,525
+2026,Provisión por antigüedad,Activo,Utrillas,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE UTRILLAS,0,0,0.0,,,,,,No,Utrillas,2630008,526
+2026,Provisión por antigüedad,Activo,Aliaga,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE ALIAGA,0,0,0.0,,,,,,No,Aliaga,2630008,527
+2026,Provisión por antigüedad,Activo,Muniesa,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE MUNIESA,0,0,0.0,,,,,,No,Muniesa,2630008,528
+2026,Provisión por antigüedad,Activo,Calamocha,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE CALAMOCHA,0,0,1.0,,,,,,No,Calamocha,2630008,529
+2026,Provisión por antigüedad,Activo,Monreal del Campo,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE MONREAL DEL CAMPO,0,0,2.0,,,,,,No,Monreal del Campo,2630008,530
+2026,Provisión por antigüedad,Activo,Montalbán,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE MONTALBAN,0,0,0.0,,,,,,No,Montalbán,2630008,531
+2026,Provisión por antigüedad,Activo,Sarrión,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE SARRION,0,0,1.0,,,,,,No,Sarrión,2630008,532
+2026,Provisión por antigüedad,Activo,Mora de Rubielos,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE MORA DE RUBIELOS,0,0,0.0,,,,,,No,Mora de Rubielos,2630008,533
+2026,Provisión por antigüedad,Activo,Rubielos de Mora,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE RUBIELOS DE MORA,0,0,0.0,,,,,,No,Rubielos de Mora,2630008,534
+2026,Provisión por antigüedad,Activo,Cantavieja,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE CANTAVIEJA,0,0,0.0,,,,,,No,Cantavieja,2630008,535
+2026,Provisión por antigüedad,Activo,Mosqueruela,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE MOSQUERUELA,0,0,0.0,,,,,,No,Mosqueruela,2630008,536
+2026,Provisión por antigüedad,Activo,La Puebla de Valverde,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE PUEBLA VALVERDE,0,0,0.0,,,,,,No,"Puebla de Valverde, La",2630008,537
+2026,Provisión por antigüedad,Activo,Alcalá de la Selva,Teruel,Aragón,No disponible (fuente 2026),,PUESTO DE ALCALA DE LA SELVA,0,0,0.0,,,,,,No,Alcalá de la Selva,2630008,538
+2026,Provisión por antigüedad,Activo,Teruel,Teruel,Aragón,No disponible (fuente 2026),,NUCLEO DE SERVICIOS TERUEL,0,0,1.0,,,,,,No,Teruel,2630008,539
+2026,Provisión por antigüedad,Activo,Ezcaray,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE EZCARAY,0,0,0.0,,,,,,No,Ezcaray,2630008,540
+2026,Provisión por antigüedad,Activo,Santo Domingo de la Calzada,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE SANTO DOMINGO,0,0,1.0,,,,,,No,Santo Domingo de la Calzada,2630008,541
+2026,Provisión por antigüedad,Activo,Casalarreina,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE CASALARREINA,0,0,0.0,,,,,,No,Casalarreina,2630008,542
+2026,Provisión por antigüedad,Activo,Cenicero,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE CENICERO,0,0,1.0,,,,,,No,Cenicero,2630008,543
+2026,Provisión por antigüedad,Activo,Badarán,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE BADARAN,0,0,1.0,,,,,,No,Badarán,2630008,544
+2026,Provisión por antigüedad,Activo,Haro,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE HARO,0,0,0.0,,,,,,No,Haro,2630008,545
+2026,Provisión por antigüedad,Activo,San Asensio,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE SAN ASENSIO,0,0,1.0,,,,,,No,San Asensio,2630008,546
+2026,Provisión por antigüedad,Activo,Nájera,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE NAJERA,0,0,5.0,,,,,,No,Nájera,2630008,547
+2026,Provisión por antigüedad,Activo,Baños de Río Tobía,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE BAÑOS,0,0,2.0,,,,,,No,Baños de Río Tobía,2630008,548
+2026,Provisión por antigüedad,Activo,Murillo de Río Leza,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE MURILLO,0,0,0.0,,,,,,No,Murillo de Río Leza,2630008,549
+2026,Provisión por antigüedad,Activo,Villamediana de Iregua,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE VILLAMEDIANA,0,0,3.0,,,,,,No,Villamediana de Iregua,2630008,550
+2026,Provisión por antigüedad,Activo,Nalda,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE NALDA,0,0,1.0,,,,,,No,Nalda,2630008,551
+2026,Provisión por antigüedad,Activo,Fuenmayor,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE FUENMAYOR,0,0,0.0,,,,,,No,Fuenmayor,2630008,552
+2026,Provisión por antigüedad,Activo,Torrecilla en Cameros,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE TORRECILLA,0,0,4.0,,,,,,No,Torrecilla en Cameros,2630008,553
+2026,Provisión por antigüedad,Activo,Agoncillo,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE AGONCILLO,0,0,0.0,,,,,,No,Agoncillo,2630008,554
+2026,Provisión por antigüedad,Activo,Navarrete,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE NAVARRETE,0,0,3.0,,,,,,No,Navarrete,2630008,555
+2026,Provisión por antigüedad,Activo,Arnedo,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE ARNEDO,0,0,4.0,,,,,,No,Arnedo,2630008,556
+2026,Provisión por antigüedad,Activo,Autol,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE AUTOL,0,0,1.0,,,,,,No,Autol,2630008,557
+2026,Provisión por antigüedad,Activo,Calahorra,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO P. DE CALAHORRA,3,0,0.0,,,,,,No,Calahorra,2630008,558
+2026,Provisión por antigüedad,Activo,Aldeanueva de Ebro,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE ALDEANUEVA,0,0,2.0,,,,,,No,Aldeanueva de Ebro,2630008,559
+2026,Provisión por antigüedad,Activo,Alcanadre,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE ALCANADRE,0,0,3.0,,,,,,No,Alcanadre,2630008,560
+2026,Provisión por antigüedad,Activo,Alfaro,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE ALFARO,0,0,3.0,,,,,,No,Alfaro,2630008,561
+2026,Provisión por antigüedad,Activo,Cervera del Río Alhama,La Rioja,La Rioja,No disponible (fuente 2026),,PUESTO DE CERVERA,0,0,2.0,,,,,,No,Cervera del Río Alhama,2630008,562
+2026,Provisión por antigüedad,Activo,Laguardia,Araba/Álava,País Vasco,No disponible (fuente 2026),,PUESTO DE LAGUARDIA,1,0,0.0,,,,,,No,Laguardia,2630008,563
+2026,Provisión por antigüedad,Activo,Vitoria-Gasteiz,Araba/Álava,País Vasco,No disponible (fuente 2026),,PUESTO DE LA PUEBLA DE ARGANZON,2,0,0.0,,,,,,No,Vitoria-Gasteiz,2630008,564
+2026,Provisión por antigüedad,Activo,Aranda de Duero,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE ARANDA DE DUERO,0,0,1.0,,,,,,No,Aranda de Duero,2630008,565
+2026,Provisión por antigüedad,Activo,Roa,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE ROA,0,0,0.0,,,,,,No,Roa,2630008,566
+2026,Provisión por antigüedad,Activo,Huerta de Rey,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE HUERTA DEL REY,0,0,0.0,,,,,,No,Huerta de Rey,2630008,567
+2026,Provisión por antigüedad,Activo,Lerma,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE LERMA,0,0,0.0,,,,,,No,Lerma,2630008,568
+2026,Provisión por antigüedad,Activo,Santa María del Campo,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE SANTA MARIA DEL CAMPO,0,0,2.0,,,,,,No,Santa María del Campo,2630008,569
+2026,Provisión por antigüedad,Activo,Quintanar de la Sierra,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE QUINTANAR DE LA SIERRA,0,0,2.0,,,,,,No,Quintanar de la Sierra,2630008,570
+2026,Provisión por antigüedad,Activo,Torresandino,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE TORRESANDINO,0,0,1.0,,,,,,No,Torresandino,2630008,571
+2026,Provisión por antigüedad,Activo,Covarrubias,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE COVARRUBIAS,0,0,2.0,,,,,,No,Covarrubias,2630008,572
+2026,Provisión por antigüedad,Activo,Salas de los Infantes,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE SALAS DE LOS INFANTES,0,0,1.0,,,,,,No,Salas de los Infantes,2630008,573
+2026,Provisión por antigüedad,Activo,Salas de los Infantes,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE HONTORIA DEL PINAR,0,0,0.0,,,,,,Sí,Salas de los Infantes,2630008,574
+2026,Provisión por antigüedad,Activo,Buniel,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE BUNIEL,0,0,0.0,,,,,,No,Buniel,2630008,575
+2026,Provisión por antigüedad,Activo,Villadiego,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE VILLADIEGO,0,0,1.0,,,,,,No,Villadiego,2630008,576
+2026,Provisión por antigüedad,Activo,Burgos,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO P. DE ALFOZ DE BURGOS,0,0,2.0,,,,,,No,Burgos,2630008,577
+2026,Provisión por antigüedad,Activo,Merindad de Río Ubierna,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE SOTOPALACIOS,0,0,0.0,,,,,,No,Merindad de Río Ubierna,2630008,578
+2026,Provisión por antigüedad,Activo,Melgar de Fernamental,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE MELGAR FERNAMENTAL,0,0,0.0,,,,,,No,Melgar de Fernamental,2630008,579
+2026,Provisión por antigüedad,Activo,Castrojeriz,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE CASTROJERIZ,0,0,0.0,,,,,,No,Castrojeriz,2630008,580
+2026,Provisión por antigüedad,Activo,Villarcayo de Merindad de Castilla la Vieja,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE VILLARCAYO,0,0,1.0,,,,,,No,Villarcayo de Merindad de Castilla la Vieja,2630008,581
+2026,Provisión por antigüedad,Activo,Medina de Pomar,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE MEDINA DE POMAR,0,0,1.0,,,,,,No,Medina de Pomar,2630008,582
+2026,Provisión por antigüedad,Activo,Valle de Sedano,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE SEDANO,0,0,1.0,,,,,,No,Valle de Sedano,2630008,583
+2026,Provisión por antigüedad,Activo,Valle de Valdebezana,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE SONCILLO,0,0,0.0,,,,,,No,Valle de Valdebezana,2630008,584
+2026,Provisión por antigüedad,Activo,Espinosa de los Monteros,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE ESPINOSA DE LOS MONTEROS,0,0,1.0,,,,,,No,Espinosa de los Monteros,2630008,585
+2026,Provisión por antigüedad,Activo,Valle de Losa,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE QUINCOCES DE YUSO,0,0,0.0,,,,,,No,Valle de Losa,2630008,586
+2026,Provisión por antigüedad,Activo,Valle de Mena,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE VILLASANA DE MENA,0,0,1.0,,,,,,No,Valle de Mena,2630008,587
+2026,Provisión por antigüedad,Activo,Miranda de Ebro,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE MIRANDA DE EBRO,0,0,3.0,,,,,,No,Miranda de Ebro,2630008,588
+2026,Provisión por antigüedad,Activo,Valle de Tobalina,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE QUINTANA M.GALINDEZ,0,0,1.0,,,,,,No,Valle de Tobalina,2630008,589
+2026,Provisión por antigüedad,Activo,Pancorbo,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE PANCORBO,0,0,1.0,,,,,,No,Pancorbo,2630008,590
+2026,Provisión por antigüedad,Activo,Oña,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE OÑA,0,0,0.0,,,,,,No,Oña,2630008,591
+2026,Provisión por antigüedad,Activo,Briviesca,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE BRIVIESCA,0,0,3.0,,,,,,No,Briviesca,2630008,592
+2026,Provisión por antigüedad,Activo,Pradoluengo,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE PRADOLUENGO,0,0,0.0,,,,,,No,Pradoluengo,2630008,593
+2026,Provisión por antigüedad,Activo,Belorado,Burgos,Castilla y León,No disponible (fuente 2026),,PUESTO DE BELORADO,0,0,0.0,,,,,,No,Belorado,2630008,594
+2026,Provisión por antigüedad,Activo,Burgos,Burgos,Castilla y León,No disponible (fuente 2026),,NUCLEO DE SERVICIOS BURGOS,3,1,0.0,,,,,,No,Burgos,2630008,595
+2026,Provisión por antigüedad,Activo,Soria,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE SORIA,10,0,0.0,,,,,,No,Soria,2630008,596
+2026,Provisión por antigüedad,Activo,Almarza,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE ALMARZA,0,0,1.0,,,,,,No,Almarza,2630008,597
+2026,Provisión por antigüedad,Activo,Ágreda,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE AGREDA,0,0,1.0,,,,,,No,Ágreda,2630008,598
+2026,Provisión por antigüedad,Activo,San Pedro Manrique,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE SAN PEDRO MANRIQUE,0,0,0.0,,,,,,No,San Pedro Manrique,2630008,599
+2026,Provisión por antigüedad,Activo,Ólvega,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE OLVEGA,0,0,1.0,,,,,,No,Ólvega,2630008,600
+2026,Provisión por antigüedad,Activo,Gómara,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE GOMARA,0,0,2.0,,,,,,No,Gómara,2630008,601
+2026,Provisión por antigüedad,Activo,Deza,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE DEZA,0,0,2.0,,,,,,No,Deza,2630008,602
+2026,Provisión por antigüedad,Activo,Almazán,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE ALMAZAN,0,0,1.0,,,,,,No,Almazán,2630008,603
+2026,Provisión por antigüedad,Activo,Berlanga de Duero,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE BERLANGA DE DUERO,0,0,2.0,,,,,,No,Berlanga de Duero,2630008,604
+2026,Provisión por antigüedad,Activo,Arcos de Jalón,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE ARCOS DE JALON,0,0,0.0,,,,,,No,Arcos de Jalón,2630008,605
+2026,Provisión por antigüedad,Activo,Medinaceli,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE MEDINACELI,0,0,0.0,,,,,,No,Medinaceli,2630008,606
+2026,Provisión por antigüedad,Activo,Monteagudo de las Vicarías,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE MONTEAGUDO,0,0,1.0,,,,,,No,Monteagudo de las Vicarías,2630008,607
+2026,Provisión por antigüedad,Activo,Burgo de Osma-Ciudad de Osma,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE BURGO DE OSMA,0,0,3.0,,,,,,No,Burgo de Osma-Ciudad de Osma,2630008,608
+2026,Provisión por antigüedad,Activo,San Esteban de Gormaz,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE SAN ESTEBAN DE GORMAZ,0,0,0.0,,,,,,No,San Esteban de Gormaz,2630008,609
+2026,Provisión por antigüedad,Activo,Vinuesa,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE VINUESA,0,0,3.0,,,,,,No,Vinuesa,2630008,610
+2026,Provisión por antigüedad,Activo,Langa de Duero,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE LANGA DE DUERO,0,0,0.0,,,,,,No,Langa de Duero,2630008,611
+2026,Provisión por antigüedad,Activo,San Leonardo de Yagüe,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE SAN LEONARDO DE YAGÜE,0,0,1.0,,,,,,No,San Leonardo de Yagüe,2630008,612
+2026,Provisión por antigüedad,Activo,Covaleda,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE COVALEDA,0,0,0.0,,,,,,No,Covaleda,2630008,613
+2026,Provisión por antigüedad,Activo,Abejar,Soria,Castilla y León,No disponible (fuente 2026),,PUESTO DE ABEJAR,0,0,1.0,,,,,,No,Abejar,2630008,614
+2026,Provisión por antigüedad,Activo,Soria,Soria,Castilla y León,No disponible (fuente 2026),,NUCLEO DE SERVICIOS SORIA,0,0,3.0,,,,,,No,Soria,2630008,615
+2026,Provisión por antigüedad,Activo,Santa Marta de Tormes,Salamanca,Castilla y León,No disponible (fuente 2026),,PUESTO P. DE SANTA MARTA,6,1,0.0,,,,,,No,Santa Marta de Tormes,2630008,616
+2026,Provisión por antigüedad,Activo,Aldeadávila de la Ribera,Salamanca,Castilla y León,No disponible (fuente 2026),,PUESTO DE ALDEADAVILA DE LA RIBERA,2,0,0.0,,,,,,No,Aldeadávila de la Ribera,2630008,617
+2026,Provisión por antigüedad,Activo,Zamora,Zamora,Castilla y León,No disponible (fuente 2026),,PUESTO DE ZAMORA,23,0,0.0,,,,,,No,Zamora,2630008,618
+2026,Provisión por antigüedad,Activo,Benavente,Zamora,Castilla y León,No disponible (fuente 2026),,PUESTO P. DE BENAVENTE,5,0,0.0,,,,,,No,Benavente,2630008,619
+2026,Provisión por antigüedad,Activo,Zamora,Zamora,Castilla y León,No disponible (fuente 2026),,NUCLEO DE SERVICIOS ZAMORA,2,0,0.0,,,,,,No,Zamora,2630008,620
+2026,Provisión por antigüedad,Activo,Arévalo,Ávila,Castilla y León,No disponible (fuente 2026),,PUESTO DE AREVALO,1,0,0.0,,,,,,No,Arévalo,2630008,621
+2026,Provisión por antigüedad,Activo,Villanueva de Gómez,Ávila,Castilla y León,No disponible (fuente 2026),,PUESTO DE VILLANUEVA DE GOMEZ,2,0,0.0,,,,,,No,Villanueva de Gómez,2630008,622
+2026,Provisión por antigüedad,Activo,Arenas de San Pedro,Ávila,Castilla y León,No disponible (fuente 2026),,PUESTO DE ARENAS DE SAN PEDRO,1,0,0.0,,,,,,No,Arenas de San Pedro,2630008,623
+2026,Provisión por antigüedad,Activo,La Adrada,Ávila,Castilla y León,No disponible (fuente 2026),,PUESTO DE LA ADRADA,1,0,0.0,,,,,,No,"Adrada, La",2630008,624
+2026,Provisión por antigüedad,Activo,Sotillo de la Adrada,Ávila,Castilla y León,No disponible (fuente 2026),,PUESTO DE SOTILLO DE LA ADRADA,1,0,0.0,,,,,,No,Sotillo de la Adrada,2630008,625
+2026,Provisión por antigüedad,Activo,Piedrahíta,Ávila,Castilla y León,No disponible (fuente 2026),,PUESTO DE PIEDRAHITA,2,0,0.0,,,,,,No,Piedrahíta,2630008,626
+2026,Provisión por antigüedad,Activo,Muñogalindo,Ávila,Castilla y León,No disponible (fuente 2026),,PUESTO DE MUÑOGALINDO,1,0,0.0,,,,,,No,Muñogalindo,2630008,627
+2026,Provisión por antigüedad,Activo,Las Navas del Marqués,Ávila,Castilla y León,No disponible (fuente 2026),,PUESTO DE NAVAS DEL MARQUES,1,0,0.0,,,,,,No,"Navas del Marqués, Las",2630008,628
+2026,Provisión por antigüedad,Activo,El Hoyo de Pinares,Ávila,Castilla y León,No disponible (fuente 2026),,PUESTO DE HOYO DE PINARES,1,0,0.0,,,,,,No,"Hoyo de Pinares, El",2630008,629
+2026,Provisión por antigüedad,Activo,Cebreros,Ávila,Castilla y León,No disponible (fuente 2026),,PUESTO DE CEBREROS,2,0,0.0,,,,,,No,Cebreros,2630008,630
+2026,Provisión por antigüedad,Activo,El Barraco,Ávila,Castilla y León,No disponible (fuente 2026),,PUESTO DE EL BARRACO,1,0,0.0,,,,,,No,"Barraco, El",2630008,631
+2026,Provisión por antigüedad,Activo,Navaluenga,Ávila,Castilla y León,No disponible (fuente 2026),,PUESTO DE NAVALUENGA,1,0,0.0,,,,,,No,Navaluenga,2630008,632
+2026,Provisión por antigüedad,Activo,Burgohondo,Ávila,Castilla y León,No disponible (fuente 2026),,PUESTO DE BURGOHONDO,1,0,0.0,,,,,,No,Burgohondo,2630008,633
+2026,Provisión por antigüedad,Activo,Ávila,Ávila,Castilla y León,No disponible (fuente 2026),,NUCLEO DE SERVICIOS AVILA,6,0,0.0,,,,,,No,Ávila,2630008,634
+2026,Provisión por antigüedad,Activo,Barruelo de Santullán,Palencia,Castilla y León,No disponible (fuente 2026),,PUESTO DE BARRUELO DE SANTULLAN,0,0,0.0,,,,,,No,Barruelo de Santullán,2630008,635
+2026,Provisión por antigüedad,Activo,Alar del Rey,Palencia,Castilla y León,No disponible (fuente 2026),,PUESTO DE ALAR DEL REY,0,0,0.0,,,,,,No,Alar del Rey,2630008,636
+2026,Provisión por antigüedad,Activo,Herrera de Pisuerga,Palencia,Castilla y León,No disponible (fuente 2026),,PUESTO DE HERRERA DE PISUERGA,0,0,0.0,,,,,,No,Herrera de Pisuerga,2630008,637
+2026,Provisión por antigüedad,Activo,La Pernía,Palencia,Castilla y León,No disponible (fuente 2026),,PUESTO DE SAN SALVADOR,0,0,1.0,,,,,,No,"Pernía, La",2630008,638
+2026,Provisión por antigüedad,Activo,Cervera de Pisuerga,Palencia,Castilla y León,No disponible (fuente 2026),,PUESTO DE CERVERA DE PISUERGA,0,0,0.0,,,,,,No,Cervera de Pisuerga,2630008,639
+2026,Provisión por antigüedad,Activo,Velilla del Río Carrión,Palencia,Castilla y León,No disponible (fuente 2026),,PUESTO DE VELILLA,0,0,0.0,,,,,,No,Velilla del Río Carrión,2630008,640
+2026,Provisión por antigüedad,Activo,Guardo,Palencia,Castilla y León,No disponible (fuente 2026),,PUESTO DE GUARDO,0,0,0.0,,,,,,No,Guardo,2630008,641
+2026,Provisión por antigüedad,Activo,Aguilar de Campoo,Palencia,Castilla y León,No disponible (fuente 2026),,PUESTO DE AGUILAR DE CAMPOO,0,0,0.0,,,,,,No,Aguilar de Campoo,2630008,642
+2026,Provisión por antigüedad,Activo,Palencia,Palencia,Castilla y León,No disponible (fuente 2026),,NUCLEO DE SERVICIOS PALENCIA,1,0,0.0,,,,,,No,Palencia,2630008,643
+2026,Provisión por antigüedad,Activo,Segovia,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE SEGOVIA,0,0,0.0,,,,,,No,Segovia,2630008,644
+2026,Provisión por antigüedad,Activo,Cantimpalos,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE CANTIMPALOS,0,0,0.0,,,,,,No,Cantimpalos,2630008,645
+2026,Provisión por antigüedad,Activo,Real Sitio de San Ildefonso,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE SAN ILDEFONSO,0,0,0.0,,,,,,No,Real Sitio de San Ildefonso,2630008,646
+2026,Provisión por antigüedad,Activo,Navafría,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE NAVAFRIA,0,0,0.0,,,,,,No,Navafría,2630008,647
+2026,Provisión por antigüedad,Activo,Navas de Riofrío,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE NAVAS RIOFRIO,0,0,0.0,,,,,,No,Navas de Riofrío,2630008,648
+2026,Provisión por antigüedad,Activo,El Espinar,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE EL ESPINAR,0,0,1.0,,,,,,No,"Espinar, El",2630008,649
+2026,Provisión por antigüedad,Activo,Otero de Herreros,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE OTERO HERREROS,0,0,0.0,,,,,,No,Otero de Herreros,2630008,650
+2026,Provisión por antigüedad,Activo,Villacastín,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE VILLACASTIN,0,0,1.0,,,,,,No,Villacastín,2630008,651
+2026,Provisión por antigüedad,Activo,Santa María la Real de Nieva,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE SANTA MARIA,0,0,0.0,,,,,,No,Santa María la Real de Nieva,2630008,652
+2026,Provisión por antigüedad,Activo,Sangarcía,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE SANGARCIA,0,0,1.0,,,,,,No,Sangarcía,2630008,653
+2026,Provisión por antigüedad,Activo,Martín Muñoz de las Posadas,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE MARTIN MUÑOZ,0,0,0.0,,,,,,No,Martín Muñoz de las Posadas,2630008,654
+2026,Provisión por antigüedad,Activo,Boceguillas,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE BOCEGUILLAS,0,0,0.0,,,,,,No,Boceguillas,2630008,655
+2026,Provisión por antigüedad,Activo,Sepúlveda,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE SEPULVEDA,0,0,2.0,,,,,,No,Sepúlveda,2630008,656
+2026,Provisión por antigüedad,Activo,Pedraza,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE PEDRAZA,0,0,0.0,,,,,,No,Pedraza,2630008,657
+2026,Provisión por antigüedad,Activo,Riaza,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE RIAZA,0,0,0.0,,,,,,No,Riaza,2630008,658
+2026,Provisión por antigüedad,Activo,Ayllón,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE AYLLON,0,0,0.0,,,,,,No,Ayllón,2630008,659
+2026,Provisión por antigüedad,Activo,Prádena,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE PRADENA,0,0,0.0,,,,,,No,Prádena,2630008,660
+2026,Provisión por antigüedad,Activo,Cantalejo,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE CANTALEJO,0,0,1.0,,,,,,No,Cantalejo,2630008,661
+2026,Provisión por antigüedad,Activo,Turégano,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE TUREGANO,0,0,0.0,,,,,,No,Turégano,2630008,662
+2026,Provisión por antigüedad,Activo,Sacramenia,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE SACRAMENIA,0,0,0.0,,,,,,No,Sacramenia,2630008,663
+2026,Provisión por antigüedad,Activo,Lastras de Cuéllar,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE LASTRAS DE CUELLAR,0,0,0.0,,,,,,No,Lastras de Cuéllar,2630008,664
+2026,Provisión por antigüedad,Activo,Cuéllar,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE CUELLAR,0,0,1.0,,,,,,No,Cuéllar,2630008,665
+2026,Provisión por antigüedad,Activo,Fuentesaúco de Fuentidueña,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE FUENTESAUCO DE FUENTIDUEÑA,0,0,0.0,,,,,,No,Fuentesaúco de Fuentidueña,2630008,666
+2026,Provisión por antigüedad,Activo,Aguilafuente,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE AGUILAFUENTE,0,0,0.0,,,,,,No,Aguilafuente,2630008,667
+2026,Provisión por antigüedad,Activo,Coca,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE COCA,0,0,0.0,,,,,,No,Coca,2630008,668
+2026,Provisión por antigüedad,Activo,Nava de la Asunción,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE NAVA DE ASUNCION,0,0,0.0,,,,,,No,Nava de la Asunción,2630008,669
+2026,Provisión por antigüedad,Activo,Montejo de Arévalo,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE MONTEJO DE AREVALO,0,0,0.0,,,,,,No,Montejo de Arévalo,2630008,670
+2026,Provisión por antigüedad,Activo,Carbonero el Mayor,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE CARBONERO EL MAYOR,0,0,0.0,,,,,,No,Carbonero el Mayor,2630008,671
+2026,Provisión por antigüedad,Activo,Navalmanzano,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE NAVALMANZANO,0,0,0.0,,,,,,No,Navalmanzano,2630008,672
+2026,Provisión por antigüedad,Activo,Bernardos,Segovia,Castilla y León,No disponible (fuente 2026),,PUESTO DE BERNARDOS,0,0,0.0,,,,,,No,Bernardos,2630008,673
+2026,Provisión por antigüedad,Activo,Segovia,Segovia,Castilla y León,No disponible (fuente 2026),,NUCLEO DE SERVICIOS SEGOVIA,1,0,0.0,,,,,,No,Segovia,2630008,674
+2026,Provisión por antigüedad,Activo,Cistierna,León,Castilla y León,No disponible (fuente 2026),,PUESTO DE CISTIERNA,2,0,0.0,,,,,,No,Cistierna,2630008,675
+2026,Provisión por antigüedad,Activo,León,León,Castilla y León,No disponible (fuente 2026),,PUESTO P. DE ARMUNIA,1,0,0.0,,,,,,No,León,2630008,676
+2026,Provisión por antigüedad,Activo,Puebla de Lillo,León,Castilla y León,No disponible (fuente 2026),,PUESTO DE PUEBLA DE LILLO,1,0,0.0,,,,,,No,Puebla de Lillo,2630008,677
+2026,Provisión por antigüedad,Activo,Riaño,León,Castilla y León,No disponible (fuente 2026),,PUESTO DE RIAÑO,1,0,0.0,,,,,,No,Riaño,2630008,678
+2026,Provisión por antigüedad,Activo,La Bañeza,León,Castilla y León,No disponible (fuente 2026),,PUESTO P. DE LA BAÑEZA,2,0,0.0,,,,,,No,"Bañeza, La",2630008,679
+2026,Provisión por antigüedad,Activo,Santa María del Páramo,León,Castilla y León,No disponible (fuente 2026),,PUESTO DE SANTA MARIA DEL PARAMO,1,0,0.0,,,,,,No,Santa María del Páramo,2630008,680
+2026,Provisión por antigüedad,Activo,Valencia de Don Juan,León,Castilla y León,No disponible (fuente 2026),,PUESTO DE VALENCIA DE DON JUAN,3,0,0.0,,,,,,No,Valencia de Don Juan,2630008,681
+2026,Provisión por antigüedad,Activo,Ponferrada,León,Castilla y León,No disponible (fuente 2026),,PUESTO DE PONFERRADA,3,0,0.0,,,,,,No,Ponferrada,2630008,682
+2026,Provisión por antigüedad,Activo,Cacabelos,León,Castilla y León,No disponible (fuente 2026),,PUESTO DE CACABELOS,2,0,0.0,,,,,,No,Cacabelos,2630008,683
+2026,Provisión por antigüedad,Activo,Villafranca del Bierzo,León,Castilla y León,No disponible (fuente 2026),,PUESTO DE VILLAFRANCA DEL BIERZO,1,0,0.0,,,,,,No,Villafranca del Bierzo,2630008,684
+2026,Provisión por antigüedad,Activo,Bembibre,León,Castilla y León,No disponible (fuente 2026),,PUESTO P. DE BEMBIBRE,2,0,0.0,,,,,,No,Bembibre,2630008,685
+2026,Provisión por antigüedad,Activo,Carrocera,León,Castilla y León,No disponible (fuente 2026),,PUESTO DE LA MAGDALENA,1,1,0.0,,,,,,No,Carrocera,2630008,686
+2026,Provisión por antigüedad,Activo,Santa María de Cayón,Cantabria,Cantabria,No disponible (fuente 2026),,PUESTO DE SANTA MARIA DE CAYON,1,0,0.0,,,,,,No,Santa María de Cayón,2630008,687
+2026,Provisión por antigüedad,Activo,Camargo,Cantabria,Cantabria,No disponible (fuente 2026),,PUESTO P. DE CAMARGO,3,0,0.0,,,,,,No,Camargo,2630008,688
+2026,Provisión por antigüedad,Activo,El Astillero,Cantabria,Cantabria,No disponible (fuente 2026),,PUESTO DE ASTILLERO,2,0,0.0,,,,,,No,"Astillero, El",2630008,689
+2026,Provisión por antigüedad,Activo,Polanco,Cantabria,Cantabria,No disponible (fuente 2026),,PUESTO DE POLANCO,1,0,0.0,,,,,,No,Polanco,2630008,690
+2026,Provisión por antigüedad,Activo,Torrelavega,Cantabria,Cantabria,No disponible (fuente 2026),,PUESTO DE TORRELAVEGA,1,0,0.0,,,,,,No,Torrelavega,2630008,691
+2026,Provisión por antigüedad,Activo,Piélagos,Cantabria,Cantabria,No disponible (fuente 2026),,PUESTO DE RENEDO,1,0,0.0,,,,,,No,Piélagos,2630008,692
+2026,Provisión por antigüedad,Activo,Potes,Cantabria,Cantabria,No disponible (fuente 2026),,PUESTO DE POTES,2,1,0.0,,,,,,No,Potes,2630008,693
+2026,Provisión por antigüedad,Activo,San Vicente de la Barquera,Cantabria,Cantabria,No disponible (fuente 2026),,PUESTO DE SAN VICENTE DE LA BARQUERA,1,0,0.0,,,,,,No,San Vicente de la Barquera,2630008,694
+2026,Provisión por antigüedad,Activo,Santoña,Cantabria,Cantabria,No disponible (fuente 2026),,PUESTO DE SANTOÑA,1,0,0.0,,,,,,No,Santoña,2630008,695
+2026,Provisión por antigüedad,Activo,Noja,Cantabria,Cantabria,No disponible (fuente 2026),,PUESTO DE NOJA,1,0,0.0,,,,,,No,Noja,2630008,696
+2026,Provisión por antigüedad,Activo,Santoña,Cantabria,Cantabria,No disponible (fuente 2026),,SCC. SEG. CP. EL DUESO,1,0,0.0,,,,,,No,Santoña,2630008,697
+2026,Provisión por antigüedad,Activo,Castro-Urdiales,Cantabria,Cantabria,No disponible (fuente 2026),,PUESTO P. DE CASTRO URDIALES,3,0,0.0,,,,,,No,Castro-Urdiales,2630008,698
+2026,Provisión por antigüedad,Activo,Laredo,Cantabria,Cantabria,No disponible (fuente 2026),,PUESTO DE LAREDO,1,0,0.0,,,,,,No,Laredo,2630008,699
+2026,Provisión por antigüedad,Activo,Santander,Cantabria,Cantabria,No disponible (fuente 2026),,NUCLEO DE SERVICIOS CANTABRIA,1,0,0.0,,,,,,No,Santander,2630008,700
+2026,Provisión por antigüedad,Activo,Aller,Asturias,Principado de Asturias,No disponible (fuente 2026),,PUESTO DE MOREDA,1,0,0.0,,,,,,No,Aller,2630008,701
+2026,Provisión por antigüedad,Activo,Oviedo,Asturias,Principado de Asturias,No disponible (fuente 2026),,NUCLEO DE SERVICIOS OVIEDO,4,0,0.0,,,,,,No,Oviedo,2630008,702
+2026,Provisión por antigüedad,Activo,Llanera,Asturias,Principado de Asturias,No disponible (fuente 2026),,DTO. SEG. CP. ASTURIAS,1,0,0.0,,,,,,No,Llanera,2630008,703
+2026,Provisión por antigüedad,Activo,Castrillón,Asturias,Principado de Asturias,No disponible (fuente 2026),,PUESTO P. DE PIEDRAS BLANCAS,2,0,0.0,,,,,,No,Castrillón,2630008,704
+2026,Provisión por antigüedad,Activo,Llanes,Asturias,Principado de Asturias,No disponible (fuente 2026),,PUESTO DE LLANES,2,0,0.0,,,,,,No,Llanes,2630008,705
+2026,Provisión por antigüedad,Activo,Gijón,Asturias,Principado de Asturias,No disponible (fuente 2026),,NUCLEO DE SERVICIOS GIJON,3,0,0.0,,,,,,No,Gijón,2630008,706
+2026,Provisión por antigüedad,Activo,Arteixo,A Coruña,Galicia,No disponible (fuente 2026),,PUESTO P. DE ARTEIXO,5,0,0.0,,,,,,No,Arteixo,2630008,707
+2026,Provisión por antigüedad,Activo,Oleiros,A Coruña,Galicia,No disponible (fuente 2026),,PUESTO P. DE OLEIROS,1,0,0.0,,,,,,No,Oleiros,2630008,708
+2026,Provisión por antigüedad,Activo,Sada,A Coruña,Galicia,No disponible (fuente 2026),,PUESTO DE SADA,1,0,0.0,,,,,,No,Sada,2630008,709
+2026,Provisión por antigüedad,Activo,Betanzos,A Coruña,Galicia,No disponible (fuente 2026),,PUESTO DE BETANZOS,1,0,0.0,,,,,,No,Betanzos,2630008,710
+2026,Provisión por antigüedad,Activo,Culleredo,A Coruña,Galicia,No disponible (fuente 2026),,PUESTO P. DE CULLEREDO,1,0,0.0,,,,,,No,Culleredo,2630008,711
+2026,Provisión por antigüedad,Activo,Ortigueira,A Coruña,Galicia,No disponible (fuente 2026),,PUESTO DE ORTIGUEIRA,1,0,0.0,,,,,,No,Ortigueira,2630008,712
+2026,Provisión por antigüedad,Activo,Carballo,A Coruña,Galicia,No disponible (fuente 2026),,PUESTO P. DE CARBALLO,5,0,0.0,,,,,,No,Carballo,2630008,713
+2026,Provisión por antigüedad,Activo,A Fonsagrada,Lugo,Galicia,No disponible (fuente 2026),,PUESTO DE A FONSAGRADA,1,0,0.0,,,,,,No,"Fonsagrada, A",2630008,714
+2026,Provisión por antigüedad,Activo,Guitiriz,Lugo,Galicia,No disponible (fuente 2026),,PUESTO DE GUITIRIZ,1,0,0.0,,,,,,No,Guitiriz,2630008,715
+2026,Provisión por antigüedad,Activo,Sarria,Lugo,Galicia,No disponible (fuente 2026),,PUESTO DE SARRIA,1,0,0.0,,,,,,No,Sarria,2630008,716
+2026,Provisión por antigüedad,Activo,Ribadeo,Lugo,Galicia,No disponible (fuente 2026),,PUESTO DE RIBADEO,1,0,0.0,,,,,,No,Ribadeo,2630008,717
+2026,Provisión por antigüedad,Activo,Burela,Lugo,Galicia,No disponible (fuente 2026),,PUESTO DE BURELA,1,0,0.0,,,,,,No,Burela,2630008,718
+2026,Provisión por antigüedad,Activo,Foz,Lugo,Galicia,No disponible (fuente 2026),,PUESTO DE FOZ,1,0,0.0,,,,,,No,Foz,2630008,719
+2026,Provisión por antigüedad,Activo,Lugo,Lugo,Galicia,No disponible (fuente 2026),,NUCLEO DE SERVICIOS LUGO,2,0,0.0,,,,,,No,Lugo,2630008,720
+2026,Provisión por antigüedad,Activo,Ourense,Ourense,Galicia,No disponible (fuente 2026),,PUESTO DE OURENSE,2,0,0.0,,,,,,No,Ourense,2630008,721
+2026,Provisión por antigüedad,Activo,O Carballiño,Ourense,Galicia,No disponible (fuente 2026),,PUESTO P. DE CARBALLIÑO,3,0,0.0,,,,,,No,"Carballiño, O",2630008,722
+2026,Provisión por antigüedad,Activo,Ourense,Ourense,Galicia,No disponible (fuente 2026),,NUCLEO DE SERVICIOS OURENSE,2,0,0.0,,,,,,No,Ourense,2630008,723
+2026,Provisión por antigüedad,Activo,Ponteareas,Pontevedra,Galicia,No disponible (fuente 2026),,PUESTO P. DE PONTEAREAS,2,0,0.0,,,,,,No,Ponteareas,2630008,724
+2026,Provisión por antigüedad,Activo,O Porriño,Pontevedra,Galicia,No disponible (fuente 2026),,PUESTO P. DE PORRIÑO,1,1,0.0,,,,,,No,"Porriño, O",2630008,725
+2026,Provisión por antigüedad,Activo,Mos,Pontevedra,Galicia,No disponible (fuente 2026),,PUESTO DE MOS,1,0,0.0,,,,,,No,Mos,2630008,726
+2026,Provisión por antigüedad,Activo,Caldas de Reis,Pontevedra,Galicia,No disponible (fuente 2026),,PUESTO DE CALDAS DE REIS,1,0,0.0,,,,,,No,Caldas de Reis,2630008,727
+2026,Provisión por antigüedad,Activo,Valga,Pontevedra,Galicia,No disponible (fuente 2026),,PUESTO DE VALGA,1,0,0.0,,,,,,No,Valga,2630008,728
+2026,Provisión por antigüedad,Activo,Lalín,Pontevedra,Galicia,No disponible (fuente 2026),,PUESTO P. DE LALIN,3,0,0.0,,,,,,No,Lalín,2630008,729
+2026,Provisión por antigüedad,Activo,Icod de los Vinos,Santa Cruz de Tenerife,Canarias,No disponible (fuente 2026),,PUESTO P. DE ICOD DE LOS VINOS,5,0,0.0,,,,,,No,Icod de los Vinos,2630008,730
+2026,Provisión por antigüedad,Activo,La Victoria de Acentejo,Santa Cruz de Tenerife,Canarias,No disponible (fuente 2026),,PUESTO P. DE VICTORIA DE ACENTEJO,3,0,0.0,,,,,,No,"Victoria de Acentejo, La",2630008,731
+2026,Provisión por antigüedad,Activo,Tacoronte,Santa Cruz de Tenerife,Canarias,No disponible (fuente 2026),,PUESTO P. DE TACORONTE,4,0,0.0,,,,,,No,Tacoronte,2630008,732
+2026,Provisión por antigüedad,Activo,Arona,Santa Cruz de Tenerife,Canarias,No disponible (fuente 2026),,PUESTO P. DE PLAYA DE LAS AMERICAS,5,0,0.0,,,,,,No,Arona,2630008,733
+2026,Provisión por antigüedad,Activo,Adeje,Santa Cruz de Tenerife,Canarias,No disponible (fuente 2026),,PUESTO DE ADEJE,3,1,0.0,,,,,,No,Adeje,2630008,734
+2026,Provisión por antigüedad,Activo,Guía de Isora,Santa Cruz de Tenerife,Canarias,No disponible (fuente 2026),,PUESTO P. DE GUIA DE ISORA,3,0,0.0,,,,,,No,Guía de Isora,2630008,735
+2026,Provisión por antigüedad,Activo,Granadilla de Abona,Santa Cruz de Tenerife,Canarias,No disponible (fuente 2026),,PUESTO P. DE GRANADILLA DE ABONA,10,0,0.0,,,,,,No,Granadilla de Abona,2630008,736
+2026,Provisión por antigüedad,Activo,Santa Cruz de Tenerife,Santa Cruz de Tenerife,Canarias,No disponible (fuente 2026),,NUCLEO DE SERVICIOS TENERIFE,5,0,0.0,,,,,,No,Santa Cruz de Tenerife,2630008,737
+2026,Provisión por antigüedad,Activo,Teror,Las Palmas,Canarias,No disponible (fuente 2026),,PUESTO DE TEROR,1,0,0.0,,,,,,No,Teror,2630008,738
+2026,Provisión por antigüedad,Activo,Santa Lucía de Tirajana,Las Palmas,Canarias,No disponible (fuente 2026),,PUESTO P. DE VECINDARIO,1,0,0.0,,,,,,No,Santa Lucía de Tirajana,2630008,739
+2026,Provisión por antigüedad,Activo,Tías,Las Palmas,Canarias,No disponible (fuente 2026),,PUESTO P. DE TIAS,2,0,0.0,,,,,,No,Tías,2630008,740
+2026,Provisión por antigüedad,Activo,Teguise,Las Palmas,Canarias,No disponible (fuente 2026),,PUESTO P. DE COSTA TEGUISE,7,0,0.0,,,,,,No,Teguise,2630008,741
+2026,Provisión por antigüedad,Activo,Yaiza,Las Palmas,Canarias,No disponible (fuente 2026),,PUESTO P. DE YAIZA,4,0,0.0,,,,,,No,Yaiza,2630008,742
+2026,Provisión por antigüedad,Activo,San Bartolomé,Las Palmas,Canarias,No disponible (fuente 2026),,PUESTO P. DE SAN BARTOLOME DE LANZAROTE,5,0,0.0,,,,,,No,San Bartolomé,2630008,743
+2026,Provisión por antigüedad,Activo,Puerto del Rosario,Las Palmas,Canarias,No disponible (fuente 2026),,PUESTO DE PUERTO DEL ROSARIO,5,0,0.0,,,,,,No,Puerto del Rosario,2630008,744
+2026,Provisión por antigüedad,Activo,La Oliva,Las Palmas,Canarias,No disponible (fuente 2026),,PUESTO P. DE CORRALEJO,10,0,0.0,,,,,,No,"Oliva, La",2630008,745
+2026,Provisión por antigüedad,Activo,Tuineje,Las Palmas,Canarias,No disponible (fuente 2026),,PUESTO DE GRAN TARAJAL,7,0,0.0,,,,,,No,Tuineje,2630008,746
+2026,Provisión por antigüedad,Activo,Pájara,Las Palmas,Canarias,No disponible (fuente 2026),,PUESTO P. DE MORRO JABLE,5,0,0.0,,,,,,No,Pájara,2630008,747
+2026,Provisión por antigüedad,Activo,Marratxí,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO P. DE PONT D'INCA,0,0,3.0,,,,,,No,Marratxí,2630008,748
+2026,Provisión por antigüedad,Activo,Sóller,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO DE SOLLER,0,0,3.0,,,,,,No,Sóller,2630008,749
+2026,Provisión por antigüedad,Activo,Calvià,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO P. DE CALVIA,9,0,0.0,,,,,,No,Calvià,2630008,750
+2026,Provisión por antigüedad,Activo,Andratx,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO DE ANDRAITX,0,0,1.0,,,,,,No,Andratx,2630008,751
+2026,Provisión por antigüedad,Activo,Esporles,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO DE ESPORLAS,0,0,2.0,,,,,,No,Esporles,2630008,752
+2026,Provisión por antigüedad,Activo,Llucmajor,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO P. DE LLUCMAJOR-EL ARENAL,5,0,0.0,,,,,,No,Llucmajor,2630008,753
+2026,Provisión por antigüedad,Activo,Algaida,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO DE ALGAIDA,0,0,0.0,,,,,,No,Algaida,2630008,754
+2026,Provisión por antigüedad,Activo,Inca,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO P. DE INCA,0,0,4.0,,,,,,No,Inca,2630008,755
+2026,Provisión por antigüedad,Activo,Sa Pobla,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO DE LA PUEBLA,0,0,4.0,,,,,,No,"Pobla, Sa",2630008,756
+2026,Provisión por antigüedad,Activo,Pollença,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO P. DE POLLENSA-ALCUDIA,4,0,0.0,,,,,,No,Pollença,2630008,757
+2026,Provisión por antigüedad,Activo,Santa Margalida,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO P. DE SANTA MARGARITA,0,0,6.0,,,,,,No,Santa Margalida,2630008,758
+2026,Provisión por antigüedad,Activo,Artà,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO P. DE ARTA,3,0,0.0,,,,,,No,Artà,2630008,759
+2026,Provisión por antigüedad,Activo,Felanitx,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO DE FELANITX,0,0,4.0,,,,,,No,Felanitx,2630008,760
+2026,Provisión por antigüedad,Activo,Vilafranca de Bonany,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO DE VILLAFRANCA DE BONANY,0,0,1.0,,,,,,No,Vilafranca de Bonany,2630008,761
+2026,Provisión por antigüedad,Activo,Santanyí,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO P. DE SANTANYI,10,0,0.0,,,,,,No,Santanyí,2630008,762
+2026,Provisión por antigüedad,Activo,Campos,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO P. DE CAMPOS,3,0,0.0,,,,,,No,Campos,2630008,763
+2026,Provisión por antigüedad,Activo,Maó,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO DE MAHON,0,0,6.0,,,,,,No,Maó,2630008,764
+2026,Provisión por antigüedad,Activo,Es Mercadal,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO DE MERCADAL,0,0,6.0,,,,,,No,"Mercadal, Es",2630008,765
+2026,Provisión por antigüedad,Activo,Eivissa,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO P. DE SANT JOSEP DE SA TALAIA,4,0,0.0,,,,,,No,Eivissa,2630008,766
+2026,Provisión por antigüedad,Activo,Santa Eulalia del Río,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO P. DE SANTA EULALIA,3,0,0.0,,,,,,No,Santa Eulària des Riu,2630008,767
+2026,Provisión por antigüedad,Activo,Formentera,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO DE FORMENTERA,0,0,16.0,,,,,,No,Formentera,2630008,768
+2026,Provisión por antigüedad,Activo,Sant Antoni de Portmany,Illes Balears,Illes Balears,No disponible (fuente 2026),,PUESTO P. DE SANT ANTONI DE P.,7,0,0.0,,,,,,No,Sant Antoni de Portmany,2630008,769
+2026,Provisión por antigüedad,Activo,Palma,Illes Balears,Illes Balears,No disponible (fuente 2026),,NUCLEO DE SERVICIOS MALLORCA,5,0,0.0,,,,,,No,Palma,2630008,770

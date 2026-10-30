@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Vacantes Guardia Civil 2020–2024 · Dashboard por municipio</title>
+<title>Vacantes Guardia Civil 2020–2026 · Dashboard por municipio</title>
 <link rel="icon" href="data:,">
 <link rel="preconnect" href="https://api.fontshare.com">
 <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
@@ -79,6 +79,11 @@ tbody tr:hover{background:#f4f6f1}
 .tbl-tools input{max-width:320px}
 .muted{color:var(--muted);font-size:var(--text-xs)}
 .empty{padding:var(--space-10);text-align:center;color:var(--muted)}
+.cmp{display:grid;grid-template-columns:1.1fr 1fr 1fr 1fr;gap:var(--space-4);margin-top:var(--space-4);background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--gold);border-radius:var(--radius);padding:var(--space-4) var(--space-5)}
+.cmp h3{margin:0;font-size:var(--text-base);font-weight:600}.cmp .big{font-size:var(--text-xl);font-weight:600;line-height:1.1;margin-top:var(--space-1)}
+.cmp .lab{font-size:var(--text-xs);color:var(--muted);text-transform:uppercase;letter-spacing:.05em;font-weight:500}
+.delta{font-weight:600;font-variant-numeric:tabular-nums}.delta.up{color:#1f7a45}.delta.down{color:var(--red)}.delta.flat{color:var(--faint)}
+@media (max-width:1100px){.cmp{grid-template-columns:1fr 1fr}}
 .note{font-size:var(--text-xs);color:var(--muted);margin-top:var(--space-6);line-height:1.6;max-width:110ch}
 .note strong{color:var(--text)}
 @media (max-width:1100px){.filters{grid-template-columns:1fr 1fr 1fr;position:static}.kpis{grid-template-columns:repeat(3,1fr)}.span-8,.span-4,.span-6,.span-5,.span-7{grid-column:span 12}}
@@ -91,11 +96,11 @@ tbody tr:hover{background:#f4f6f1}
     <div class="mark">
       <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect x="1" y="1" width="32" height="32" rx="7" fill="none" stroke="#f4f1e6" stroke-width="2"/><path d="M8 24V14M14 24V10M20 24V16M26 24V8" stroke="#d9b65a" stroke-width="3" stroke-linecap="round"/></svg>
       <div>
-        <h1>Vacantes Guardia Civil 2020–2024</h1>
+        <h1>Vacantes Guardia Civil 2020–2026</h1>
         <p>Boletines Oficiales: libre designación, concurso de méritos y antigüedad</p>
       </div>
     </div>
-    <div style="text-align:right"><div class="muted" style="color:#d8e3dc" id="srcinfo"></div><div class="muted" style="margin-top:4px"><a style="color:#f4f1e6" href="datos/vacantes_guardia_civil_2020_2024.xlsx" download>Excel</a> · <a style="color:#f4f1e6" href="datos/vacantes_guardia_civil_2020_2024.csv" download>CSV</a> · <a style="color:#f4f1e6" href="datos/vacantes_guardia_civil_2020_2024.db" download>SQLite</a></div></div>
+    <div style="text-align:right"><div class="muted" style="color:#d8e3dc" id="srcinfo"></div><div class="muted" style="margin-top:4px"><a style="color:#f4f1e6" href="datos/vacantes_guardia_civil_2020_2026.xlsx" download>Excel</a> · <a style="color:#f4f1e6" href="datos/vacantes_guardia_civil_2020_2026.csv" download>CSV</a> · <a style="color:#f4f1e6" href="datos/vacantes_guardia_civil_2020_2026.db" download>SQLite</a></div></div>
   </div>
 </header>
 <main>
@@ -120,10 +125,11 @@ tbody tr:hover{background:#f4f6f1}
   </div>
 
   <section class="kpis" id="kpis"></section>
+  <section class="cmp" id="cmp" aria-label="Comparativa 2026"></section>
 
   <section class="grid">
     <div class="card span-8">
-      <div class="card-h"><div><h3>Evolución de vacantes por año</h3><p class="sub">Apiladas por tipo de plaza</p></div>
+      <div class="card-h"><div><h3>Evolución de vacantes por año</h3><p class="sub">Apiladas por tipo de plaza · 2025 no incluido</p></div>
         <div class="seg" id="metricSeg"><button data-m="v" class="on">Vacantes</button><button data-m="n">Concursos</button></div></div>
       <div class="chart"><canvas id="cYear"></canvas></div>
     </div>
@@ -132,7 +138,7 @@ tbody tr:hover{background:#f4f6f1}
       <div class="chart"><canvas id="cTipo"></canvas></div>
     </div>
     <div class="card span-7">
-      <h3>Puestos con más vacantes</h3><p class="sub">Top 12 puestos por vacantes</p>
+      <h3>Puestos con más vacantes</h3><p class="sub" id="puSub">Top 12 puestos por vacantes</p>
       <div class="chart tall"><canvas id="cPuesto"></canvas></div>
     </div>
     <div class="card span-5">
@@ -140,12 +146,17 @@ tbody tr:hover{background:#f4f6f1}
       <div class="tbl-wrap" style="max-height:360px"><table class="rank"><thead><tr><th>#</th><th id="rankCol">Municipio</th><th class="n">Vacantes</th><th class="n">Concursos</th></tr></thead><tbody id="rankBody"></tbody></table></div>
     </div>
     <div class="card span-6">
-      <h3>Evolución por puesto</h3><p class="sub">Vacantes por año de los 5 puestos principales</p>
+      <h3>Evolución por puesto</h3><p class="sub">Vacantes por año, 5 puestos principales (2026 sin dato de puesto)</p>
       <div class="chart"><canvas id="cPuestoYear"></canvas></div>
     </div>
     <div class="card span-6">
-      <h3>Complemento específico singular (CES)</h3><p class="sub">CES medio ponderado por vacante y año (€)</p>
+      <h3>Complemento específico singular (CES)</h3><p class="sub">CES medio ponderado por vacante y año (€) · sin dato en 2026</p>
       <div class="chart"><canvas id="cCes"></canvas></div>
+    </div>
+    <div class="card span-12">
+      <h3 id="chgTitle">Cambios 2026 frente a 2024</h3><p class="sub" id="chgSub">Misma convocatoria: provisión por antigüedad</p>
+      <div class="tbl-tools"><div class="seg" id="chgSeg" style="margin:0"><button data-o="up" class="on">Más suben</button><button data-o="down">Más bajan</button><button data-o="new">Nuevos en 2026</button><button data-o="gone">Sin vacantes en 2026</button></div></div>
+      <div class="tbl-wrap" style="max-height:380px"><table><thead><tr id="chgHead"></tr></thead><tbody id="chgBody"></tbody></table></div>
     </div>
     <div class="card span-12">
       <div class="card-h"><div><h3>Detalle de vacantes</h3><p class="sub" id="tblSub"></p></div>
@@ -155,14 +166,14 @@ tbody tr:hover{background:#f4f6f1}
     </div>
   </section>
 
-  <p class="note"><strong>Metodología.</strong> Datos de 5 resoluciones del BOGC: 2020 (2010026) y 2021 (2110028), libre designación; 2022 (2220005), concurso de méritos; 2023 (2310031), libre designación para personal en reserva; 2024 (2430010), provisión por antigüedad. Cada fila es un concurso; "vacantes" es el número de plazas convocadas. Los nombres de municipio están unificados entre años (mayúsculas, tildes, artículos pospuestos y nombres cooficiales). Cada año corresponde a un solo tipo de convocatoria, por lo que la evolución mezcla el efecto año y el efecto tipo. BQ = vacantes bloqueadas (art. 13.2 del Reglamento de Destinos, solo 2024).</p>
+  <p class="note"><strong>Metodología.</strong> Datos de 5 resoluciones del BOGC: 2020 (2010026) y 2021 (2110028), libre designación; 2022 (2220005), concurso de méritos; 2023 (2310031), libre designación para personal en reserva; 2024 (2430010) y 2026 (2630008, BOGC núm. 87 de 27/10/2026), provisión por antigüedad para Guardias Civiles. Los datos de 2026 proceden del repositorio guardia-civil-vacantes-mapa y no incluyen código de puesto ni CES. 2025 no está en las fuentes. Cada fila es un concurso; "vacantes" es el número de plazas convocadas. Los nombres de municipio están unificados entre años (mayúsculas, tildes, artículos pospuestos y nombres cooficiales). Cada año corresponde a un solo tipo de convocatoria, por lo que la evolución mezcla el efecto año y el efecto tipo. BQ = vacantes bloqueadas (art. 13.2 del Reglamento de Destinos, 2024 y 2026). La comparación más homogénea para 2026 es 2024 (mismo tipo de convocatoria).</p>
 </main>
 
 <script>
 const D=window.DATA;
 const TIPOS=['Libre designación','Concurso de méritos','Provisión por antigüedad'];
 const TCOL={'Libre designación':'#1f5a43','Concurso de méritos':'#b08a2e','Provisión por antigüedad':'#4f7ea8'};
-const YEARS=[2020,2021,2022,2023,2024];
+const YEARS=[2020,2021,2022,2023,2024,2026];const PREV=[2020,2021,2022,2023,2024];const CUR=2026;
 const fmt=n=>n==null?'–':n.toLocaleString('es-ES',{useGrouping:'always'});
 const fmtE=n=>n==null?'–':n.toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2,useGrouping:'always'})+' €';
 const st={mun:'',ccaa:'',prov:'',tipo:'',anio:'',metric:'v',q:'',sort:{k:'y',d:1}};
@@ -224,7 +235,7 @@ function render(){
   $('#chips').innerHTML=chips.map(c=>`<span class="chip">${c}</span>`).join('');
   // KPIs
   const tv=rows.reduce((a,r)=>a+r.v,0),tc=rows.length;
-  const pu=new Set(rows.map(r=>r.pu)).size,un=new Set(rows.map(r=>r.u)).size;
+  const pu=new Set(rows.filter(r=>r.pu).map(r=>r.pu)).size,un=new Set(rows.map(r=>r.u)).size;
   const yrs=new Set(rows.map(r=>r.y));
   const cesR=rows.filter(r=>r.ces!=null&&r.v>0);const cesW=cesR.reduce((a,r)=>a+r.v,0);const ces=cesW?cesR.reduce((a,r)=>a+r.ces*r.v,0)/cesW:null;
   const bq=rows.reduce((a,r)=>a+(r.bq||0),0),pp=rows.reduce((a,r)=>a+(r.pp||0),0);
@@ -235,20 +246,20 @@ function render(){
     ['Vacantes',fmt(tv),share!=null?`${share.toLocaleString('es-ES',{maximumFractionDigits:2})}% del total nacional`:`${fmt(pp)} próximas a producirse`],
     ['Concursos',fmt(tc),`${fmt(un)} unidades distintas`],
     ['Puestos distintos',fmt(pu),'Códigos PT diferentes'],
-    ['Años con vacantes',`${yrs.size} / 5`,yrs.size?[...yrs].sort().join(', '):'—'],
+    ['Años con vacantes',`${yrs.size} / ${YEARS.length}`,yrs.size?[...yrs].sort().join(', '):'—'],
     ['Año pico',peak?String(peakY):'–',peak?`${fmt(peak)} vacantes`:'Sin datos'],
     ['CES medio',ces?ces.toLocaleString('es-ES',{maximumFractionDigits:0,useGrouping:'always'})+' €':'–',bq?`${fmt(bq)} vacantes bloqueadas (BQ)`:'Ponderado por vacante']
   ].map(([l,v,s])=>`<div class="kpi"><div class="kpi-l">${l}</div><div class="kpi-v">${v}</div><div class="kpi-s">${s}</div></div>`).join('');
   // year chart
   const val=r=>st.metric==='v'?r.v:1;
-  mk('cYear',{type:'bar',data:{labels:YEARS,datasets:TIPOS.map(t=>({label:t,data:YEARS.map(y=>rows.filter(r=>r.y===y&&r.t===t).reduce((a,r)=>a+val(r),0)),backgroundColor:TCOL[t],borderRadius:4,maxBarThickness:70}))},
+  mk('cYear',{type:'bar',data:{labels:YEARS.map(y=>y===CUR?'2026 (actual)':String(y)),datasets:TIPOS.map(t=>({label:t,data:YEARS.map(y=>rows.filter(r=>r.y===y&&r.t===t).reduce((a,r)=>a+val(r),0)),backgroundColor:YEARS.map(y=>y===CUR?TCOL[t]+'':TCOL[t]+'B3'),borderColor:YEARS.map(y=>y===CUR?'#1d231f':'transparent'),borderWidth:YEARS.map(y=>y===CUR?2:0),borderRadius:4,maxBarThickness:70}))},
     options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:12,boxHeight:12}},tooltip:{mode:'index',filter:i=>i.raw>0}},scales:{x:{stacked:true,grid:{display:false}},y:{stacked:true,beginAtZero:true,...gridOpt,ticks:{precision:0}}}}});
   // tipo donut
   const tv2=TIPOS.map(t=>rows.filter(r=>r.t===t).reduce((a,r)=>a+r.v,0));
   mk('cTipo',{type:'doughnut',data:{labels:TIPOS,datasets:[{data:tv2,backgroundColor:TIPOS.map(t=>TCOL[t]),borderColor:'#fbfaf6',borderWidth:3}]},
     options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{boxWidth:12,boxHeight:12}},tooltip:{callbacks:{label:c=>`${c.label}: ${fmt(c.raw)} (${tv?(c.raw/tv*100).toFixed(1):0}%)`}}}}});
   // puesto top
-  const pm=new Map();rows.forEach(r=>pm.set(r.pu,(pm.get(r.pu)||0)+r.v));
+  const pm=new Map();rows.filter(r=>r.pu).forEach(r=>pm.set(r.pu,(pm.get(r.pu)||0)+r.v));const sinPu=rows.filter(r=>!r.pu).reduce((a,r)=>a+r.v,0);$('#puSub').textContent='Top 12 puestos por vacantes'+(sinPu?` · excluye ${fmt(sinPu)} vacantes de 2026 sin dato de puesto`:'');
   const top=[...pm].sort((a,b)=>b[1]-a[1]).slice(0,12);
   mk('cPuesto',{type:'bar',data:{labels:top.map(x=>{const L=innerWidth<640?20:34;return x[0].length>L?x[0].slice(0,L-1)+'…':x[0]}),datasets:[{data:top.map(x=>x[1]),backgroundColor:'#2f7a5c',borderRadius:3,maxBarThickness:22}]},
     options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{title:c=>top[c[0].dataIndex][0]}}},scales:{x:{beginAtZero:true,...gridOpt,ticks:{precision:0}},y:{grid:{display:false},ticks:{font:{size:11}}}}}});
@@ -263,14 +274,46 @@ function render(){
   // ranking
   const level=o?'pu':(st.prov?'mun':(st.ccaa?'mun':'mun'));
   const rk=new Map();
-  rows.forEach(r=>{const k=o?r.pu:munKey(r);const e=rk.get(k)||{k,label:o?r.pu:r.m,sub:o?'':r.p,v:0,n:0};e.v+=r.v;e.n++;rk.set(k,e)});
+  rows.forEach(r=>{const k=o?(r.pu||r.u+' (2026)'):munKey(r);const e=rk.get(k)||{k,label:o?(r.pu||r.u+' · 2026'):r.m,sub:o?'':r.p,v:0,n:0};e.v+=r.v;e.n++;rk.set(k,e)});
   const rl=[...rk.values()].sort((a,b)=>b.v-a.v).slice(0,50);const mx=rl[0]?rl[0].v:1;
   $('#rankTitle').textContent=o?'Puestos convocados en el municipio':'Municipios con más vacantes';
   $('#rankSub').textContent=o?'Vacantes por puesto, todos los años filtrados':'Haz clic en un municipio para ver su detalle';
   $('#rankCol').textContent=o?'Puesto':'Municipio';
   $('#rankBody').innerHTML=rl.length?rl.map((e,i)=>`<tr><td class="n muted">${i+1}</td><td>${o?e.label:`<button data-k="${e.k}">${e.label}</button> <span class="muted">${e.sub}</span>`}<div class="bar"><i style="width:${e.v/mx*100}%"></i></div></td><td class="n">${fmt(e.v)}</td><td class="n">${fmt(e.n)}</td></tr>`).join(''):'<tr><td colspan="4" class="empty">Sin datos</td></tr>';
   document.querySelectorAll('#rankBody button').forEach(b=>b.onclick=()=>{pickMun(munAll.find(x=>x.k===b.dataset.k));window.scrollTo({top:0,behavior:'smooth'})});
+  renderCmp();renderChg();
   renderTable(rows);
+}
+function dl(a,b){if(!b&&!a)return '<span class="delta flat">sin vacantes</span>';if(!b)return '<span class="delta up">nuevo</span>';const d=a-b,p=d/b*100;const c=d>0?'up':d<0?'down':'flat';return `<span class="delta ${c}">${d>0?'▲ +':d<0?'▼ ':'= '}${fmt(d)} (${d>0?'+':''}${p.toLocaleString('es-ES',{maximumFractionDigits:0})}%)</span>`}
+function renderCmp(){
+  const rows=base(['anio']);const by=y=>rows.filter(r=>r.y===y).reduce((a,r)=>a+r.v,0);
+  const c=by(CUR),p24=by(2024),avg=PREV.reduce((a,y)=>a+by(y),0)/PREV.length;
+  const all=YEARS.map(y=>[y,by(y)]).sort((a,b)=>b[1]-a[1]);const rank=all.findIndex(x=>x[0]===CUR)+1;
+  const bqc=rows.filter(r=>r.y===CUR).reduce((a,r)=>a+(r.bq||0),0),bq24=rows.filter(r=>r.y===2024).reduce((a,r)=>a+(r.bq||0),0);
+  const avgTxt=avg.toLocaleString('es-ES',{maximumFractionDigits:1,useGrouping:'always'});
+  $('#cmp').innerHTML=`<div><h3>2026 frente a años anteriores</h3><div class="lab" style="margin-top:6px">Vacantes 2026</div><div class="big">${fmt(c)}</div><div class="muted">${rows.filter(r=>r.y===CUR).length} concursos · ${rank}º de 6 años</div></div>
+  <div><div class="lab">vs 2024 · misma convocatoria</div><div class="big">${fmt(p24)}</div><div>${dl(c,p24)}</div></div>
+  <div><div class="lab">vs media 2020–2024</div><div class="big">${avgTxt}</div><div>${dl(c,avg)}</div></div>
+  <div><div class="lab">Bloqueadas (BQ) 2026 vs 2024</div><div class="big">${fmt(bqc)}</div><div>${dl(bqc,bq24)}</div></div>`;
+}
+let chgMode='up';
+document.querySelectorAll('#chgSeg button').forEach(b=>b.onclick=()=>{chgMode=b.dataset.o;document.querySelectorAll('#chgSeg button').forEach(x=>x.classList.toggle('on',x===b));renderChg()});
+function renderChg(){
+  const rows=base(['anio','tipo']).filter(r=>r.y===CUR||r.y===2024);
+  const o=st.mun?munAll.find(x=>x.k===st.mun):null;
+  const keyF=o?(r=>r.u):munKey,lab=o?(r=>[r.u,'']):(r=>[r.m,r.p]);
+  const m=new Map();rows.forEach(r=>{const k=keyF(r);const e=m.get(k)||{k,l:lab(r),a:0,b:0,hist:0};if(r.y===CUR)e.a+=r.v;else e.b+=r.v;m.set(k,e)});
+  // historical 2020-2023 for context
+  const hist=new Map();base(['anio','tipo']).filter(r=>r.y<2024).forEach(r=>{const k=keyF(r);hist.set(k,(hist.get(k)||0)+r.v)});
+  let L=[...m.values()];
+  if(chgMode==='up')L=L.filter(e=>e.a>e.b).sort((x,y)=>(y.a-y.b)-(x.a-x.b));
+  if(chgMode==='down')L=L.filter(e=>e.a<e.b).sort((x,y)=>(x.a-x.b)-(y.a-y.b));
+  if(chgMode==='new')L=L.filter(e=>e.a>0&&e.b===0).sort((x,y)=>y.a-x.a);
+  if(chgMode==='gone')L=L.filter(e=>e.a===0&&e.b>0).sort((x,y)=>y.b-x.b);
+  $('#chgTitle').textContent=o?`Cambios 2026 frente a 2024 en ${o.m}, por unidad`:'Cambios 2026 frente a 2024 por municipio';
+  $('#chgHead').innerHTML=`<th>#</th><th>${o?'Unidad':'Municipio'}</th><th class="n">2024</th><th class="n">2026</th><th class="n">Diferencia</th><th class="n">2020–2023</th>`;
+  $('#chgBody').innerHTML=L.length?L.slice(0,100).map((e,i)=>`<tr><td class="n muted">${i+1}</td><td>${o?e.l[0]:`<button class="lnk" data-k="${e.k}" style="all:unset;cursor:pointer;color:var(--accent);font-weight:500">${e.l[0]}</button> <span class="muted">${e.l[1]}</span>`}</td><td class="n">${fmt(e.b)}</td><td class="n"><strong>${fmt(e.a)}</strong></td><td class="n">${dl(e.a,e.b)}</td><td class="n muted">${fmt(hist.get(e.k)||0)}</td></tr>`).join('')+(L.length>100?`<tr><td colspan="6" class="muted" style="text-align:center">Mostrando 100 de ${fmt(L.length)}</td></tr>`:''):'<tr><td colspan="6" class="empty">Sin casos con estos filtros</td></tr>';
+  document.querySelectorAll('#chgBody button').forEach(b=>b.onclick=()=>{pickMun(munAll.find(x=>x.k===b.dataset.k));window.scrollTo({top:0,behavior:'smooth'})});
 }
 const COLS=[['y','Año','n'],['t','Tipo de plaza'],['m','Municipio'],['p','Provincia'],['pu','Puesto'],['u','Unidad'],['v','Vacantes','n'],['pp','Próx.','n'],['bq','BQ','n'],['ces','CES €','n'],['ex','Exen.'],['em','Empleo / Título'],['n','Nº conc.','n']];
 $('#tbl thead tr').innerHTML=COLS.map(([k,l,c])=>`<th data-k="${k}" class="${c||''}">${l}</th>`).join('');
@@ -286,7 +329,7 @@ function renderTable(rows){
   $('#tblSub').textContent=`${fmt(r.length)} concursos · ${fmt(r.reduce((a,x)=>a+x.v,0))} vacantes`;
   $('#qcount').textContent=q?`${fmt(r.length)} coincidencias`:'';
   const show=r.slice(0,500);
-  $('#tbl tbody').innerHTML=show.length?show.map(x=>`<tr><td class="n">${x.y}</td><td>${x.t}${x.s==='Reserva'?'<span class="tag">reserva</span>':''}</td><td>${x.m}${x.pr==='Sí'?'<span class="tag prov">provisional</span>':''}</td><td>${x.p}</td><td>${x.pu} <span class="muted">${x.pt}</span></td><td>${x.u}</td><td class="n">${fmt(x.v)}</td><td class="n">${x.pp||''}</td><td class="n">${x.bq??''}</td><td class="n">${x.ces!=null?x.ces.toLocaleString('es-ES',{minimumFractionDigits:2,useGrouping:'always'}):'–'}</td><td>${x.ex||''}</td><td>${x.em||x.ti||''}${x.rq?`<span class="tag">${x.rq}</span>`:''}</td><td class="n">${x.n}</td></tr>`).join('')+(r.length>500?`<tr><td colspan="13" class="muted" style="text-align:center">Mostrando 500 de ${fmt(r.length)} filas. Usa los filtros o exporta a CSV.</td></tr>`:''):`<tr><td colspan="13" class="empty">No hay vacantes con estos filtros</td></tr>`;
+  $('#tbl tbody').innerHTML=show.length?show.map(x=>`<tr><td class="n">${x.y}</td><td>${x.t}${x.s==='Reserva'?'<span class="tag">reserva</span>':''}</td><td>${x.m}${x.pr==='Sí'?'<span class="tag prov">provisional</span>':''}</td><td>${x.p}</td><td>${x.pu?`${x.pu} <span class="muted">${x.pt}</span>`:'<span class="muted">No disponible</span>'}</td><td>${x.u}</td><td class="n">${fmt(x.v)}</td><td class="n">${x.pp||''}</td><td class="n">${x.bq??''}</td><td class="n">${x.ces!=null?x.ces.toLocaleString('es-ES',{minimumFractionDigits:2,useGrouping:'always'}):'–'}</td><td>${x.ex||''}</td><td>${x.em||x.ti||''}${x.rq?`<span class="tag">${x.rq}</span>`:''}</td><td class="n">${x.n}</td></tr>`).join('')+(r.length>500?`<tr><td colspan="13" class="muted" style="text-align:center">Mostrando 500 de ${fmt(r.length)} filas. Usa los filtros o exporta a CSV.</td></tr>`:''):`<tr><td colspan="13" class="empty">No hay vacantes con estos filtros</td></tr>`;
 }
 $('#export').onclick=()=>{
   const H=['Año','Tipo de plaza','Situación','Municipio','Provincia','Comunidad autónoma','Puesto','Código PT','Unidad','Nº vacantes','Próximas a producirse','Bloqueadas','CES (€)','Exención','Empleo','Título','Requisito','Residencia provisional','Nº concurso'];
