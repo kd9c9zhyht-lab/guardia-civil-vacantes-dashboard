@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vacantes Guardia Civil 2020–2024 · Dashboard por municipio</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="data.js"></script>
+<style>
+:root{
+  --text-xs:clamp(.75rem,.7rem + .25vw,.8125rem);--text-sm:clamp(.8125rem,.78rem + .2vw,.9375rem);--text-base:clamp(.9375rem,.9rem + .2vw,1rem);--text-lg:clamp(1.0625rem,1rem + .4vw,1.25rem);--text-xl:clamp(1.5rem,1.2rem + 1vw,2rem);
+  --space-1:.25rem;--space-2:.5rem;--space-3:.75rem;--space-4:1rem;--space-5:1.25rem;--space-6:1.5rem;--space-8:2rem;--space-10:2.5rem;
+  --bg:#f3f2ec;--surface:#fbfaf6;--surface-2:#ecebe3;--border:#d9d7cc;--text:#1d231f;--muted:#5d655f;--faint:#8b918b;
+  --accent:#1f5a43;--accent-2:#2f7a5c;--accent-soft:#dfeae3;--gold:#b08a2e;--red:#a3402f;
+  --c1:#1f5a43;--c2:#b08a2e;--c3:#4f7ea8;--c4:#a3402f;--c5:#7a6aa0;
+  --radius:10px;--font:'General Sans',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);font-size:var(--text-base);line-height:1.45}
+.num,td.n,.kpi-v{font-variant-numeric:tabular-nums lining-nums}
+header.top{background:var(--accent);color:#f4f1e6;padding:var(--space-5) var(--space-8)}
+.top-in{max-width:1400px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-end;gap:var(--space-6);flex-wrap:wrap}
+.top h1{font-size:var(--text-xl);margin:0;font-weight:600;letter-spacing:-.01em}
+.top p{margin:var(--space-1) 0 0;font-size:var(--text-sm);opacity:.82}
+.mark{display:flex;align-items:center;gap:var(--space-3)}
+.mark svg{flex:none}
+main{max-width:1400px;margin:0 auto;padding:var(--space-6) var(--space-8) var(--space-10)}
+.filters{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:var(--space-4) var(--space-5);display:grid;grid-template-columns:2fr 1.2fr 1.2fr 1.2fr 1fr auto;gap:var(--space-4);align-items:end;position:sticky;top:0;z-index:20;box-shadow:0 2px 10px rgba(30,40,30,.06)}
+.f label{display:block;font-size:var(--text-xs);color:var(--muted);font-weight:500;margin-bottom:var(--space-1);text-transform:uppercase;letter-spacing:.05em}
+select,input[type=search]{width:100%;font:inherit;font-size:var(--text-sm);padding:var(--space-2) var(--space-3);border:1px solid var(--border);border-radius:7px;background:#fff;color:var(--text);min-height:38px}
+select:focus,input:focus,button:focus-visible{outline:2px solid var(--accent-2);outline-offset:1px}
+.combo{position:relative}
+.combo-list{position:absolute;top:100%;left:0;right:0;max-height:320px;overflow:auto;overscroll-behavior:contain;background:#fff;border:1px solid var(--border);border-radius:7px;margin-top:4px;box-shadow:0 8px 24px rgba(0,0,0,.12);display:none;z-index:30}
+.combo-list.open{display:block}
+.combo-list button{display:flex;justify-content:space-between;width:100%;text-align:left;border:0;background:none;padding:var(--space-2) var(--space-3);font:inherit;font-size:var(--text-sm);cursor:pointer;color:var(--text);gap:var(--space-3)}
+.combo-list button:hover,.combo-list button.act{background:var(--accent-soft)}
+.combo-list small{color:var(--faint)}
+.btn{font:inherit;font-size:var(--text-sm);font-weight:500;padding:var(--space-2) var(--space-4);border-radius:7px;border:1px solid var(--border);background:var(--surface-2);color:var(--text);cursor:pointer;min-height:38px;white-space:nowrap}
+.btn:hover{background:#e2e0d6}
+.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn.primary:hover{background:var(--accent-2)}
+.scope{margin:var(--space-5) 0 var(--space-4);display:flex;justify-content:space-between;align-items:baseline;gap:var(--space-4);flex-wrap:wrap}
+.scope h2{margin:0;font-size:var(--text-lg);font-weight:600}
+.scope .chips{display:flex;gap:var(--space-2);flex-wrap:wrap}
+.chip{font-size:var(--text-xs);background:var(--accent-soft);color:var(--accent);padding:2px var(--space-3);border-radius:99px;font-weight:500}
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:var(--space-4)}
+.kpi{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:var(--space-4) var(--space-5)}
+.kpi-l{font-size:var(--text-xs);color:var(--muted);text-transform:uppercase;letter-spacing:.05em;font-weight:500}
+.kpi-v{font-size:var(--text-xl);font-weight:600;margin-top:var(--space-1);line-height:1.1}
+.kpi-s{font-size:var(--text-xs);color:var(--faint);margin-top:var(--space-1)}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--space-4);margin-top:var(--space-4)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:var(--space-5);min-width:0}
+.card h3{margin:0;font-size:var(--text-base);font-weight:600}
+.card .sub{margin:2px 0 var(--space-4);font-size:var(--text-xs);color:var(--muted)}
+.span-8{grid-column:span 8}.span-4{grid-column:span 4}.span-6{grid-column:span 6}.span-12{grid-column:span 12}.span-5{grid-column:span 5}.span-7{grid-column:span 7}
+.chart{position:relative;height:300px}
+.chart.tall{height:360px}
+.seg{display:inline-flex;border:1px solid var(--border);border-radius:7px;overflow:hidden;margin-bottom:var(--space-3)}
+.seg button{border:0;background:#fff;font:inherit;font-size:var(--text-xs);padding:var(--space-1) var(--space-3);cursor:pointer;color:var(--muted)}
+.seg button.on{background:var(--accent);color:#fff}
+.card-h{display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);flex-wrap:wrap}
+.tbl-wrap{overflow:auto;max-height:520px;border:1px solid var(--border);border-radius:8px;overscroll-behavior:contain}
+table{border-collapse:collapse;width:100%;font-size:var(--text-sm)}
+th{position:sticky;top:0;background:var(--surface-2);text-align:left;font-weight:600;font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.04em;color:var(--muted);padding:var(--space-2) var(--space-3);cursor:pointer;white-space:nowrap;z-index:1}
+th[aria-sort=ascending]::after{content:" ▲";font-size:.7em}th[aria-sort=descending]::after{content:" ▼";font-size:.7em}
+td{padding:var(--space-2) var(--space-3);border-top:1px solid #e8e6dc;vertical-align:top}
+td.n,th.n{text-align:right}
+tbody tr:hover{background:#f4f6f1}
+.rank button{all:unset;cursor:pointer;color:var(--accent);font-weight:500}
+.rank button:hover{text-decoration:underline}
+.bar{height:6px;background:var(--accent-soft);border-radius:3px;overflow:hidden;margin-top:3px}
+.bar i{display:block;height:100%;background:var(--accent)}
+.tag{display:inline-block;font-size:var(--text-xs);padding:0 6px;border-radius:4px;background:var(--surface-2);color:var(--muted);margin-left:4px}
+.tag.prov{background:#f5ead0;color:#7a5d14}
+.tbl-tools{display:flex;gap:var(--space-3);align-items:center;margin-bottom:var(--space-3);flex-wrap:wrap}
+.tbl-tools input{max-width:320px}
+.muted{color:var(--muted);font-size:var(--text-xs)}
+.empty{padding:var(--space-10);text-align:center;color:var(--muted)}
+.note{font-size:var(--text-xs);color:var(--muted);margin-top:var(--space-6);line-height:1.6;max-width:110ch}
+.note strong{color:var(--text)}
+@media (max-width:1100px){.filters{grid-template-columns:1fr 1fr 1fr;position:static}.kpis{grid-template-columns:repeat(3,1fr)}.span-8,.span-4,.span-6,.span-5,.span-7{grid-column:span 12}}
+@media (max-width:640px){header.top{padding:var(--space-4)}main{padding:var(--space-4)}.filters{grid-template-columns:1fr 1fr}.filters .f-mun{grid-column:span 2}.kpis{grid-template-columns:repeat(2,1fr)}.chart{height:260px}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <div class="mark">
+      <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect x="1" y="1" width="32" height="32" rx="7" fill="none" stroke="#f4f1e6" stroke-width="2"/><path d="M8 24V14M14 24V10M20 24V16M26 24V8" stroke="#d9b65a" stroke-width="3" stroke-linecap="round"/></svg>
+      <div>
+        <h1>Vacantes Guardia Civil 2020–2024</h1>
+        <p>Boletines Oficiales: libre designación, concurso de méritos y antigüedad</p>
+      </div>
+    </div>
+    <div style="text-align:right"><div class="muted" style="color:#d8e3dc" id="srcinfo"></div><div class="muted" style="margin-top:4px"><a style="color:#f4f1e6" href="datos/vacantes_guardia_civil_2020_2024.xlsx" download>Excel</a> · <a style="color:#f4f1e6" href="datos/vacantes_guardia_civil_2020_2024.csv" download>CSV</a> · <a style="color:#f4f1e6" href="datos/vacantes_guardia_civil_2020_2024.db" download>SQLite</a></div></div>
+  </div>
+</header>
+<main>
+  <section class="filters" aria-label="Filtros">
+    <div class="f f-mun">
+      <label for="mun">Municipio</label>
+      <div class="combo">
+        <input id="mun" type="search" placeholder="Buscar municipio…" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="munlist">
+        <div class="combo-list" id="munlist" role="listbox"></div>
+      </div>
+    </div>
+    <div class="f"><label for="ccaa">Comunidad autónoma</label><select id="ccaa"></select></div>
+    <div class="f"><label for="prov">Provincia</label><select id="prov"></select></div>
+    <div class="f"><label for="tipo">Tipo de plaza</label><select id="tipo"></select></div>
+    <div class="f"><label for="anio">Año</label><select id="anio"></select></div>
+    <div class="f"><button class="btn" id="reset">Limpiar filtros</button></div>
+  </section>
+
+  <div class="scope">
+    <h2 id="scopeTitle">España · todos los municipios</h2>
+    <div class="chips" id="chips"></div>
+  </div>
+
+  <section class="kpis" id="kpis"></section>
+
+  <section class="grid">
+    <div class="card span-8">
+      <div class="card-h"><div><h3>Evolución de vacantes por año</h3><p class="sub">Apiladas por tipo de plaza</p></div>
+        <div class="seg" id="metricSeg"><button data-m="v" class="on">Vacantes</button><button data-m="n">Concursos</button></div></div>
+      <div class="chart"><canvas id="cYear"></canvas></div>
+    </div>
+    <div class="card span-4">
+      <h3>Reparto por tipo de plaza</h3><p class="sub">Vacantes en el periodo filtrado</p>
+      <div class="chart"><canvas id="cTipo"></canvas></div>
+    </div>
+    <div class="card span-7">
+      <h3>Puestos con más vacantes</h3><p class="sub">Top 12 puestos por vacantes</p>
+      <div class="chart tall"><canvas id="cPuesto"></canvas></div>
+    </div>
+    <div class="card span-5">
+      <h3 id="rankTitle">Municipios con más vacantes</h3><p class="sub" id="rankSub">Haz clic para ver el detalle</p>
+      <div class="tbl-wrap" style="max-height:360px"><table class="rank"><thead><tr><th>#</th><th id="rankCol">Municipio</th><th class="n">Vacantes</th><th class="n">Concursos</th></tr></thead><tbody id="rankBody"></tbody></table></div>
+    </div>
+    <div class="card span-6">
+      <h3>Evolución por puesto</h3><p class="sub">Vacantes por año de los 5 puestos principales</p>
+      <div class="chart"><canvas id="cPuestoYear"></canvas></div>
+    </div>
+    <div class="card span-6">
+      <h3>Complemento específico singular (CES)</h3><p class="sub">CES medio ponderado por vacante y año (€)</p>
+      <div class="chart"><canvas id="cCes"></canvas></div>
+    </div>
+    <div class="card span-12">
+      <div class="card-h"><div><h3>Detalle de vacantes</h3><p class="sub" id="tblSub"></p></div>
+        <button class="btn primary" id="export">Exportar CSV</button></div>
+      <div class="tbl-tools"><input type="search" id="q" placeholder="Filtrar por puesto, unidad o municipio…"><span class="muted" id="qcount"></span></div>
+      <div class="tbl-wrap"><table id="tbl"><thead><tr></tr></thead><tbody></tbody></table></div>
+    </div>
+  </section>
+
+  <p class="note"><strong>Metodología.</strong> Datos de 5 resoluciones del BOGC: 2020 (2010026) y 2021 (2110028), libre designación; 2022 (2220005), concurso de méritos; 2023 (2310031), libre designación para personal en reserva; 2024 (2430010), provisión por antigüedad. Cada fila es un concurso; "vacantes" es el número de plazas convocadas. Los nombres de municipio están unificados entre años (mayúsculas, tildes, artículos pospuestos y nombres cooficiales). Cada año corresponde a un solo tipo de convocatoria, por lo que la evolución mezcla el efecto año y el efecto tipo. BQ = vacantes bloqueadas (art. 13.2 del Reglamento de Destinos, solo 2024).</p>
+</main>
+
+<script>
+const D=window.DATA;
+const TIPOS=['Libre designación','Concurso de méritos','Provisión por antigüedad'];
+const TCOL={'Libre designación':'#1f5a43','Concurso de méritos':'#b08a2e','Provisión por antigüedad':'#4f7ea8'};
+const YEARS=[2020,2021,2022,2023,2024];
+const fmt=n=>n==null?'–':n.toLocaleString('es-ES',{useGrouping:'always'});
+const fmtE=n=>n==null?'–':n.toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2,useGrouping:'always'})+' €';
+const st={mun:'',ccaa:'',prov:'',tipo:'',anio:'',metric:'v',q:'',sort:{k:'y',d:1}};
+const $=s=>document.querySelector(s);
+const uniq=a=>[...new Set(a)].sort((x,y)=>String(x).localeCompare(String(y),'es'));
+const munKey=r=>r.m+'|'+r.p;
+document.getElementById('srcinfo').textContent=`${fmt(D.length)} concursos · ${fmt(D.reduce((a,r)=>a+r.v,0))} vacantes · ${fmt(new Set(D.map(munKey)).size)} municipios`;
+
+Chart.defaults.font.family="'General Sans',system-ui,sans-serif";Chart.defaults.font.size=12;Chart.defaults.color='#5d655f';
+Chart.defaults.plugins.tooltip.backgroundColor='#1d231f';Chart.defaults.plugins.tooltip.padding=10;Chart.defaults.plugins.tooltip.cornerRadius=6;
+Chart.defaults.animation.duration=500;
+
+function base(exceptKeys=[]){
+  return D.filter(r=>(exceptKeys.includes('ccaa')||!st.ccaa||r.c===st.ccaa)&&(exceptKeys.includes('prov')||!st.prov||r.p===st.prov)&&(exceptKeys.includes('mun')||!st.mun||munKey(r)===st.mun)&&(exceptKeys.includes('tipo')||!st.tipo||r.t===st.tipo)&&(exceptKeys.includes('anio')||!st.anio||r.y==st.anio));
+}
+function fillSelect(el,vals,all,cur){el.innerHTML=`<option value="">${all}</option>`+vals.map(v=>`<option${v==cur?' selected':''}>${v}</option>`).join('');}
+function refreshSelects(){
+  fillSelect($('#ccaa'),uniq(D.map(r=>r.c)),'Todas',st.ccaa);
+  fillSelect($('#prov'),uniq(D.filter(r=>!st.ccaa||r.c===st.ccaa).map(r=>r.p)),'Todas',st.prov);
+  fillSelect($('#tipo'),TIPOS,'Todos',st.tipo);
+  fillSelect($('#anio'),YEARS,'Todos',st.anio);
+}
+// municipio combobox
+const munAll=(()=>{const m=new Map();D.forEach(r=>{const k=munKey(r);const o=m.get(k)||{k,m:r.m,p:r.p,c:r.c,v:0,years:new Set()};o.v+=r.v;o.years.add(r.y);m.set(k,o)});return [...m.values()]})();
+const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const inp=$('#mun'),lst=$('#munlist');let act=-1,opts=[];
+function renderCombo(){
+  const q=norm(inp.value.trim());
+  opts=munAll.filter(o=>(!st.ccaa||o.c===st.ccaa)&&(!st.prov||o.p===st.prov)&&(!q||norm(o.m).includes(q)||norm(o.p).includes(q))).sort((a,b)=>{const as=norm(a.m).startsWith(q),bs=norm(b.m).startsWith(q);return (bs-as)||b.v-a.v}).slice(0,80);
+  lst.innerHTML=opts.length?opts.map((o,i)=>`<button type="button" role="option" data-i="${i}" class="${i===act?'act':''}"><span>${o.m} <small>· ${o.p}</small></span><small>${fmt(o.v)} vac.</small></button>`).join(''):'<div class="empty" style="padding:12px">Sin resultados</div>';
+}
+function openCombo(){lst.classList.add('open');inp.setAttribute('aria-expanded','true');act=-1;renderCombo();}
+function closeCombo(){lst.classList.remove('open');inp.setAttribute('aria-expanded','false');}
+function pickMun(o){st.mun=o?o.k:'';inp.value=o?o.m+' ('+o.p+')':'';if(o){st.prov=o.p;st.ccaa=o.c;}closeCombo();refreshSelects();render();}
+inp.addEventListener('focus',()=>{inp.select();openCombo()});
+inp.addEventListener('input',()=>{act=-1;openCombo();if(!inp.value){st.mun='';render();}});
+inp.addEventListener('keydown',e=>{if(e.key==='ArrowDown'){act=Math.min(act+1,opts.length-1);renderCombo();e.preventDefault()}else if(e.key==='ArrowUp'){act=Math.max(act-1,0);renderCombo();e.preventDefault()}else if(e.key==='Enter'){if(opts[act<0?0:act])pickMun(opts[act<0?0:act]);e.preventDefault()}else if(e.key==='Escape'){closeCombo()}});
+lst.addEventListener('mousedown',e=>{const b=e.target.closest('button');if(b){e.preventDefault();pickMun(opts[+b.dataset.i]);}});
+inp.addEventListener('blur',()=>setTimeout(()=>{closeCombo();if(st.mun){const o=munAll.find(x=>x.k===st.mun);inp.value=o.m+' ('+o.p+')';}},120));
+
+$('#ccaa').onchange=e=>{st.ccaa=e.target.value;st.prov='';clearMunIfOut();refreshSelects();render()};
+$('#prov').onchange=e=>{st.prov=e.target.value;if(st.prov)st.ccaa=D.find(r=>r.p===st.prov).c;clearMunIfOut();refreshSelects();render()};
+$('#tipo').onchange=e=>{st.tipo=e.target.value;render()};
+$('#anio').onchange=e=>{st.anio=e.target.value;render()};
+$('#reset').onclick=()=>{Object.assign(st,{mun:'',ccaa:'',prov:'',tipo:'',anio:'',q:''});inp.value='';$('#q').value='';refreshSelects();render()};
+function clearMunIfOut(){if(st.mun){const o=munAll.find(x=>x.k===st.mun);if((st.prov&&o.p!==st.prov)||(st.ccaa&&o.c!==st.ccaa)){st.mun='';inp.value='';}}}
+document.querySelectorAll('#metricSeg button').forEach(b=>b.onclick=()=>{st.metric=b.dataset.m;document.querySelectorAll('#metricSeg button').forEach(x=>x.classList.toggle('on',x===b));render()});
+
+const charts={};
+function mk(id,cfg){if(charts[id]){charts[id].data=cfg.data;charts[id].options=cfg.options;charts[id].update();}else charts[id]=new Chart(document.getElementById(id),cfg);}
+const gridOpt={grid:{color:'#e6e4da'},border:{display:false}};
+
+function render(){
+  const rows=base();
+  // scope
+  const o=st.mun?munAll.find(x=>x.k===st.mun):null;
+  $('#scopeTitle').textContent=o?`${o.m} · ${o.p}`:st.prov?`Provincia de ${st.prov}`:st.ccaa?st.ccaa:'España · todos los municipios';
+  const chips=[];if(o)chips.push(o.c);if(st.tipo)chips.push(st.tipo);if(st.anio)chips.push('Año '+st.anio);if(!o&&!st.prov&&!st.ccaa&&!st.tipo&&!st.anio)chips.push('Sin filtros');
+  $('#chips').innerHTML=chips.map(c=>`<span class="chip">${c}</span>`).join('');
+  // KPIs
+  const tv=rows.reduce((a,r)=>a+r.v,0),tc=rows.length;
+  const pu=new Set(rows.map(r=>r.pu)).size,un=new Set(rows.map(r=>r.u)).size;
+  const yrs=new Set(rows.map(r=>r.y));
+  const cesR=rows.filter(r=>r.ces!=null&&r.v>0);const cesW=cesR.reduce((a,r)=>a+r.v,0);const ces=cesW?cesR.reduce((a,r)=>a+r.ces*r.v,0)/cesW:null;
+  const bq=rows.reduce((a,r)=>a+(r.bq||0),0),pp=rows.reduce((a,r)=>a+(r.pp||0),0);
+  const share=o||st.prov||st.ccaa?(tv/base(['mun','prov','ccaa']).reduce((a,r)=>a+r.v,0)*100):null;
+  const byY=YEARS.map(y=>rows.filter(r=>r.y===y).reduce((a,r)=>a+r.v,0));
+  const peak=Math.max(...byY);const peakY=YEARS[byY.indexOf(peak)];
+  $('#kpis').innerHTML=[
+    ['Vacantes',fmt(tv),share!=null?`${share.toLocaleString('es-ES',{maximumFractionDigits:2})}% del total nacional`:`${fmt(pp)} próximas a producirse`],
+    ['Concursos',fmt(tc),`${fmt(un)} unidades distintas`],
+    ['Puestos distintos',fmt(pu),'Códigos PT diferentes'],
+    ['Años con vacantes',`${yrs.size} / 5`,yrs.size?[...yrs].sort().join(', '):'—'],
+    ['Año pico',peak?String(peakY):'–',peak?`${fmt(peak)} vacantes`:'Sin datos'],
+    ['CES medio',ces?ces.toLocaleString('es-ES',{maximumFractionDigits:0,useGrouping:'always'})+' €':'–',bq?`${fmt(bq)} vacantes bloqueadas (BQ)`:'Ponderado por vacante']
+  ].map(([l,v,s])=>`<div class="kpi"><div class="kpi-l">${l}</div><div class="kpi-v">${v}</div><div class="kpi-s">${s}</div></div>`).join('');
+  // year chart
+  const val=r=>st.metric==='v'?r.v:1;
+  mk('cYear',{type:'bar',data:{labels:YEARS,datasets:TIPOS.map(t=>({label:t,data:YEARS.map(y=>rows.filter(r=>r.y===y&&r.t===t).reduce((a,r)=>a+val(r),0)),backgroundColor:TCOL[t],borderRadius:4,maxBarThickness:70}))},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:12,boxHeight:12}},tooltip:{mode:'index',filter:i=>i.raw>0}},scales:{x:{stacked:true,grid:{display:false}},y:{stacked:true,beginAtZero:true,...gridOpt,ticks:{precision:0}}}}});
+  // tipo donut
+  const tv2=TIPOS.map(t=>rows.filter(r=>r.t===t).reduce((a,r)=>a+r.v,0));
+  mk('cTipo',{type:'doughnut',data:{labels:TIPOS,datasets:[{data:tv2,backgroundColor:TIPOS.map(t=>TCOL[t]),borderColor:'#fbfaf6',borderWidth:3}]},
+    options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{boxWidth:12,boxHeight:12}},tooltip:{callbacks:{label:c=>`${c.label}: ${fmt(c.raw)} (${tv?(c.raw/tv*100).toFixed(1):0}%)`}}}}});
+  // puesto top
+  const pm=new Map();rows.forEach(r=>pm.set(r.pu,(pm.get(r.pu)||0)+r.v));
+  const top=[...pm].sort((a,b)=>b[1]-a[1]).slice(0,12);
+  mk('cPuesto',{type:'bar',data:{labels:top.map(x=>{const L=innerWidth<640?20:34;return x[0].length>L?x[0].slice(0,L-1)+'…':x[0]}),datasets:[{data:top.map(x=>x[1]),backgroundColor:'#2f7a5c',borderRadius:3,maxBarThickness:22}]},
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{title:c=>top[c[0].dataIndex][0]}}},scales:{x:{beginAtZero:true,...gridOpt,ticks:{precision:0}},y:{grid:{display:false},ticks:{font:{size:11}}}}}});
+  // puesto x year
+  const top5=top.slice(0,5).map(x=>x[0]);const pal=['#1f5a43','#b08a2e','#4f7ea8','#a3402f','#7a6aa0'];
+  mk('cPuestoYear',{type:'line',data:{labels:YEARS,datasets:top5.map((p,i)=>({label:p.length>28?p.slice(0,27)+'…':p,data:YEARS.map(y=>rows.filter(r=>r.y===y&&r.pu===p).reduce((a,r)=>a+r.v,0)),borderColor:pal[i],backgroundColor:pal[i],cubicInterpolationMode:'monotone',pointRadius:4,borderWidth:2}))},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:10,boxHeight:10,font:{size:11}}},tooltip:{mode:'index',intersect:false}},scales:{x:{grid:{display:false}},y:{beginAtZero:true,...gridOpt,ticks:{precision:0}}}}});
+  // CES
+  const cy=YEARS.map(y=>{const rr=rows.filter(r=>r.y===y&&r.ces!=null&&r.v>0);const w=rr.reduce((a,r)=>a+r.v,0);return w?Math.round(rr.reduce((a,r)=>a+r.ces*r.v,0)/w*100)/100:null});
+  mk('cCes',{type:'bar',data:{labels:YEARS,datasets:[{label:'CES medio',data:cy,backgroundColor:YEARS.map(y=>TCOL[(D.find(r=>r.y===y)||{}).t]),borderRadius:4,maxBarThickness:60}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>fmtE(c.raw)}}},scales:{x:{grid:{display:false}},y:{beginAtZero:true,...gridOpt,ticks:{callback:v=>v.toLocaleString('es-ES',{useGrouping:'always'})+' €'}}}}});
+  // ranking
+  const level=o?'pu':(st.prov?'mun':(st.ccaa?'mun':'mun'));
+  const rk=new Map();
+  rows.forEach(r=>{const k=o?r.pu:munKey(r);const e=rk.get(k)||{k,label:o?r.pu:r.m,sub:o?'':r.p,v:0,n:0};e.v+=r.v;e.n++;rk.set(k,e)});
+  const rl=[...rk.values()].sort((a,b)=>b.v-a.v).slice(0,50);const mx=rl[0]?rl[0].v:1;
+  $('#rankTitle').textContent=o?'Puestos convocados en el municipio':'Municipios con más vacantes';
+  $('#rankSub').textContent=o?'Vacantes por puesto, todos los años filtrados':'Haz clic en un municipio para ver su detalle';
+  $('#rankCol').textContent=o?'Puesto':'Municipio';
+  $('#rankBody').innerHTML=rl.length?rl.map((e,i)=>`<tr><td class="n muted">${i+1}</td><td>${o?e.label:`<button data-k="${e.k}">${e.label}</button> <span class="muted">${e.sub}</span>`}<div class="bar"><i style="width:${e.v/mx*100}%"></i></div></td><td class="n">${fmt(e.v)}</td><td class="n">${fmt(e.n)}</td></tr>`).join(''):'<tr><td colspan="4" class="empty">Sin datos</td></tr>';
+  document.querySelectorAll('#rankBody button').forEach(b=>b.onclick=()=>{pickMun(munAll.find(x=>x.k===b.dataset.k));window.scrollTo({top:0,behavior:'smooth'})});
+  renderTable(rows);
+}
+const COLS=[['y','Año','n'],['t','Tipo de plaza'],['m','Municipio'],['p','Provincia'],['pu','Puesto'],['u','Unidad'],['v','Vacantes','n'],['pp','Próx.','n'],['bq','BQ','n'],['ces','CES €','n'],['ex','Exen.'],['em','Empleo / Título'],['n','Nº conc.','n']];
+$('#tbl thead tr').innerHTML=COLS.map(([k,l,c])=>`<th data-k="${k}" class="${c||''}">${l}</th>`).join('');
+document.querySelectorAll('#tbl th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;st.sort=st.sort.k===k?{k,d:-st.sort.d}:{k,d:1};render()});
+$('#q').addEventListener('input',e=>{st.q=e.target.value;render()});
+let lastRows=[];
+function renderTable(rows){
+  const q=norm(st.q.trim());
+  let r=q?rows.filter(x=>norm([x.pu,x.u,x.m,x.p,x.em||'',x.ti||''].join(' ')).includes(q)):rows.slice();
+  const {k,d}=st.sort;r.sort((a,b)=>{const A=a[k]??'',B=b[k]??'';return (typeof A==='number'&&typeof B==='number'?A-B:String(A).localeCompare(String(B),'es'))*d||a.y-b.y||a.n-b.n});
+  lastRows=r;
+  document.querySelectorAll('#tbl th').forEach(th=>th.setAttribute('aria-sort',th.dataset.k===k?(d>0?'ascending':'descending'):'none'));
+  $('#tblSub').textContent=`${fmt(r.length)} concursos · ${fmt(r.reduce((a,x)=>a+x.v,0))} vacantes`;
+  $('#qcount').textContent=q?`${fmt(r.length)} coincidencias`:'';
+  const show=r.slice(0,500);
+  $('#tbl tbody').innerHTML=show.length?show.map(x=>`<tr><td class="n">${x.y}</td><td>${x.t}${x.s==='Reserva'?'<span class="tag">reserva</span>':''}</td><td>${x.m}${x.pr==='Sí'?'<span class="tag prov">provisional</span>':''}</td><td>${x.p}</td><td>${x.pu} <span class="muted">${x.pt}</span></td><td>${x.u}</td><td class="n">${fmt(x.v)}</td><td class="n">${x.pp||''}</td><td class="n">${x.bq??''}</td><td class="n">${x.ces!=null?x.ces.toLocaleString('es-ES',{minimumFractionDigits:2,useGrouping:'always'}):'–'}</td><td>${x.ex||''}</td><td>${x.em||x.ti||''}${x.rq?`<span class="tag">${x.rq}</span>`:''}</td><td class="n">${x.n}</td></tr>`).join('')+(r.length>500?`<tr><td colspan="13" class="muted" style="text-align:center">Mostrando 500 de ${fmt(r.length)} filas. Usa los filtros o exporta a CSV.</td></tr>`:''):`<tr><td colspan="13" class="empty">No hay vacantes con estos filtros</td></tr>`;
+}
+$('#export').onclick=()=>{
+  const H=['Año','Tipo de plaza','Situación','Municipio','Provincia','Comunidad autónoma','Puesto','Código PT','Unidad','Nº vacantes','Próximas a producirse','Bloqueadas','CES (€)','Exención','Empleo','Título','Requisito','Residencia provisional','Nº concurso'];
+  const K=['y','t','s','m','p','c','pu','pt','u','v','pp','bq','ces','ex','em','ti','rq','pr','n'];
+  const esc=v=>{v=v==null?'':String(v);return /[;"\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v};
+  const csv='\ufeff'+[H.join(';')].concat(lastRows.map(r=>K.map(k=>k==='ces'&&r.ces!=null?String(r.ces).replace('.',','):esc(r[k])).join(';'))).join('\n');
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.download='vacantes_filtradas.csv';document.body.appendChild(a);a.click();a.remove();
+};
+refreshSelects();render();
+</script>
+</body>
+</html>
